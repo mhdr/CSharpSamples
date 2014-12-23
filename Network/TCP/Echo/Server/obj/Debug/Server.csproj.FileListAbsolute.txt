@@ -1,0 +1,6 @@
+C:\Users\Mahmood\Documents\Visual Studio 2013\Projects\CSharpSamples\Network\TCP\Echo\Server\bin\Debug\Server.exe.config
+C:\Users\Mahmood\Documents\Visual Studio 2013\Projects\CSharpSamples\Network\TCP\Echo\Server\bin\Debug\Server.exe
+C:\Users\Mahmood\Documents\Visual Studio 2013\Projects\CSharpSamples\Network\TCP\Echo\Server\bin\Debug\Server.pdb
+C:\Users\Mahmood\Documents\Visual Studio 2013\Projects\CSharpSamples\Network\TCP\Echo\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Mahmood\Documents\Visual Studio 2013\Projects\CSharpSamples\Network\TCP\Echo\Server\obj\Debug\Server.exe
+C:\Users\Mahmood\Documents\Visual Studio 2013\Projects\CSharpSamples\Network\TCP\Echo\Server\obj\Debug\Server.pdb
