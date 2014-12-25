@@ -33,7 +33,7 @@ CREATE TABLE {0} (
 'Age'  INTEGER NOT NULL
 );", tableName);
 
-            Table.CreateTable(connectionString,tableName,new SQLiteCommand(command));
+            Table.CreateTable(connectionString,new SQLiteCommand(command));
         }
     }
 }

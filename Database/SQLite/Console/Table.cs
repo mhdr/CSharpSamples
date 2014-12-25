@@ -123,48 +123,12 @@ namespace Console
             DataAdapter.Fill(DataTable);
         }
 
-        public void DropTable()
-        {
-            if (IsInTransaction)
-            {
-                SQLiteConnection connection = Transaction.Connection;
-                SQLiteCommand command = new SQLiteCommand();
-
-                command.Connection = connection;
-                command.Transaction = Transaction;
-
-                string commandText5 = string.Format(
-    @"DROP Table {0};", TableName);
-
-                command.CommandText = commandText5;
-                command.ExecuteNonQuery();
-            }
-            else
-            {
-                SQLiteConnection connection = null;
-                SQLiteCommand command = new SQLiteCommand();
-
-                connection = new SQLiteConnection(this.ConnectionString);
-                connection.Open();
-                command.Connection = connection;
-
-                string commandText5 = string.Format(
-    @"DROP Table {0};", TableName);
-
-                command.CommandText = commandText5;
-                command.ExecuteNonQuery();
-
-                connection.Close();
-            }
-
-        }
-
         public static void CreateDatabase(string path)
         {
             SQLiteConnection.CreateFile(path);
         }
 
-        public static void CreateTable(string connectionString, string tableName, SQLiteCommand command)
+        public static void CreateTable(string connectionString, SQLiteCommand command)
         {
             SQLiteConnection connection = new SQLiteConnection(connectionString);
             connection.Open();
@@ -173,12 +137,57 @@ namespace Console
             connection.Clone();
         }
 
-        public static void CreateTable(string connectionString,SQLiteTransaction transaction, string tableName, SQLiteCommand command)
+        public static void CreateTable(SQLiteTransaction transaction,SQLiteCommand command)
         {
             SQLiteConnection connection = transaction.Connection;
             connection.Open();
             command.Connection = connection;
             command.Transaction = transaction;
+            command.ExecuteNonQuery();
+        }
+
+        public static bool TableExist(string connectionString, string tableName)
+        {
+            // TODO
+            return false;
+        }
+
+        public static bool TableExist(SQLiteTransaction transaction, string tableName)
+        {
+            // TODO
+            return false;
+        }
+
+        public static void DropTable(string connectionString, string tableName)
+        {
+            SQLiteConnection connection = null;
+            SQLiteCommand command = new SQLiteCommand();
+
+            connection = new SQLiteConnection(connectionString);
+            connection.Open();
+            command.Connection = connection;
+
+            string commandText5 = string.Format(
+@"DROP Table {0};", tableName);
+
+            command.CommandText = commandText5;
+            command.ExecuteNonQuery();
+
+            connection.Close();
+        }
+
+        public static void DropTable(SQLiteTransaction transaction, string tableName)
+        {
+            SQLiteConnection connection = transaction.Connection;
+            SQLiteCommand command = new SQLiteCommand();
+
+            command.Connection = connection;
+            command.Transaction = transaction;
+
+            string commandText5 = string.Format(
+@"DROP Table {0};", tableName);
+
+            command.CommandText = commandText5;
             command.ExecuteNonQuery();
         }
     }
