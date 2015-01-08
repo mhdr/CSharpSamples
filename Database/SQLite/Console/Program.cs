@@ -12,28 +12,10 @@ namespace Console
     {
         static void Main(string[] args)
         {
-            string fileName = "test.sqlite";
-            string myDocumentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            string path = Path.Combine(myDocumentsPath, fileName);
-
-            string connectionString = string.Format("Data Source={0};Version=3;", path);
-
-            Table.CreateDatabase(path);
-            CreateTable(connectionString);
+            Table.CreateDatabase(Statics.GetDatabasePath());
+            People.CreateTable(Statics.GetConnectionString());
         }
 
-        private static void CreateTable(string connectionString)
-        {
-            string tableName = "People";
-            string command = string.Format(@"
-DROP TABLE IF EXISTS {0};
-CREATE TABLE {0} (
-'PersonId'  INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-'FirstName'  TEXT,
-'Age'  INTEGER NOT NULL
-);", tableName);
 
-            Table.CreateTable(connectionString,new SQLiteCommand(command));
-        }
     }
 }
