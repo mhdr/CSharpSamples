@@ -1,0 +1,2167 @@
+From: <Saved by UnMHT Ver.7.3.0.5>
+Subject: A machine has 2 NICs. Which one will be utilized when connecting to a socket? - Stack Overflow
+Date: Fri, 22 May 2015 21:51:09 +0450
+MIME-Version: 1.0
+X-UnMHT-Save-State: Current-State
+Content-Type: multipart/related;
+	boundary="----=_Part_1DDB4694_A0BF2D94.14D7CA48F9F";
+	type="text/html"
+
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F
+Content-Location: file:///C:/Users/Mahmood/AppData/Roaming/Mozilla/Firefox/Profiles/17bac1g3.default/ScrapBook/data/20150522214650/index.html
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset="UTF-8"
+
+<!DOCTYPE html>
+<html itemscope=3D"" itemtype=3D"http://schema.org/QAPage"><head><meta http=
+-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+
+
+
+<title>A machine has 2 NICs. Which one will be utilized when connecting to =
+a socket? - Stack Overflow</title>
+    <link href=3D"favicon.ico" rel=3D"shortcut icon">
+    <link href=3D"https://cdn.sstatic.net/stackoverflow/img/apple-touch-ico=
+n.png?v=3D41f6e13ade69" rel=3D"apple-touch-icon image_src">
+    <link href=3D"https://stackoverflow.com/opensearch.xml" rel=3D"search" =
+title=3D"Stack Overflow" type=3D"application/opensearchdescription+xml">
+    <meta content=3D"summary" name=3D"twitter:card">
+    <meta content=3D"stackoverflow.com" name=3D"twitter:domain">
+    <meta content=3D"website" property=3D"og:type">
+    <meta content=3D"https://cdn.sstatic.net/stackoverflow/img/apple-touch-=
+icon@2.png?v=3Dea71a5211a91&amp;a" itemprop=3D"image primaryImageOfPage" pr=
+operty=3D"og:image">
+    <meta content=3D"A machine has 2 NICs. Which one will be utilized when =
+connecting to a socket?" itemprop=3D"title name" name=3D"twitter:title" pro=
+perty=3D"og:title">
+    <meta content=3D"Suppose I create a very simple socket connection, how =
+can one programatically:
+
+
+Find out what interface (ip address
+/ NIC) is being used.=20
+Force the other interface
+
+" itemprop=3D"description" name=3D"twitter:description" property=3D"og:desc=
+ription">
+    <meta content=3D"http://stackoverflow.com/questions/428313/a-machine-ha=
+s-2-nics-which-one-will-be-utilized-when-connecting-to-a-socket" property=
+=3D"og:url">
+    <link href=3D"http://stackoverflow.com/questions/428313/a-machine-has-2=
+-nics-which-one-will-be-utilized-when-connecting-to-a-socket" rel=3D"canoni=
+cal">
+
+   =20
+   =20
+   =20
+   =20
+   =20
+
+            <link href=3D"https://stackoverflow.com/feeds/question/428313" =
+rel=3D"alternate" title=3D"Feed for question &#x27;A machine has 2 NICs. Wh=
+ich one will be utilized when connecting to a socket?&#x27;" type=3D"applic=
+ation/atom+xml">
+            <meta content=3D"US" name=3D"twitter:app:country">
+            <meta content=3D"Stack Exchange iOS" name=3D"twitter:app:name:i=
+phone">
+            <meta content=3D"871299723" name=3D"twitter:app:id:iphone">
+            <meta content=3D"se-zaphod://stackoverflow.com/questions/428313=
+/a-machine-has-2-nics-which-one-will-be-utilized-when-connecting-to-a-socke=
+t" name=3D"twitter:app:url:iphone">
+            <meta content=3D"Stack Exchange iOS" name=3D"twitter:app:name:i=
+pad">
+            <meta content=3D"871299723" name=3D"twitter:app:id:ipad">
+            <meta content=3D"se-zaphod://stackoverflow.com/questions/428313=
+/a-machine-has-2-nics-which-one-will-be-utilized-when-connecting-to-a-socke=
+t" name=3D"twitter:app:url:ipad">
+            <meta content=3D"Stack Exchange Android" name=3D"twitter:app:na=
+me:googleplay">
+            <meta content=3D"http://stackoverflow.com/questions/428313/a-ma=
+chine-has-2-nics-which-one-will-be-utilized-when-connecting-to-a-socket" na=
+me=3D"twitter:app:url:googleplay">
+            <meta content=3D"com.stackexchange.marvin" name=3D"twitter:app:=
+id:googleplay">
+       =20
+
+
+   =20
+   =20
+       =20
+   =20
+   =20
+
+<link href=3D"index.css" media=3D"all" rel=3D"stylesheet" type=3D"text/css">
+<script>try {  for(var lastpass_iter=3D0; lastpass_iter < document.forms.le=
+ngth; lastpass_iter++){    var lastpass_f =3D document.forms[lastpass_iter]=
+;    if(typeof(lastpass_f.lpsubmitorig)=3D=3D"undefined"){      if (typeof(=
+lastpass_f.submit) =3D=3D "function") {        lastpass_f.lpsubmitorig =3D =
+lastpass_f.submit;        lastpass_f.submit =3D function(){          var fo=
+rm =3D this;          try {            if (document.documentElement && 'cre=
+ateEvent' in document)            {              var forms =3D document.get=
+ElementsByTagName('form');              for (var i=3D0 ; i<forms.length ; +=
++i)                if (forms[i]=3D=3Dform)                {                =
+  var element =3D document.createElement('lpformsubmitdataelement');       =
+           element.setAttribute('formnum',i);                  element.setA=
+ttribute('from','submithook');                  document.documentElement.ap=
+pendChild(element);                  var evt =3D document.createEvent('Even=
+ts');                  evt.initEvent('lpformsubmit',true,false);           =
+       element.dispatchEvent(evt);                  break;                }=
+            }          } catch (e) {}          try {            form.lpsubm=
+itorig();          } catch (e) {}        }      }    }  }} catch (e) {}</sc=
+ript><base href=3D"file:///C:/Users/Mahmood/AppData/Roaming/Mozilla/Firefox=
+/Profiles/17bac1g3.default/ScrapBook/data/20150522214650/"></head>
+<body class=3D"question-page new-topbar">
+   =20
+    <div id=3D"notify-container"></div>
+    <div id=3D"overlay-header"></div>
+    <div id=3D"custom-header"></div>
+
+
+
+
+
+   =20
+
+    <div class=3D"container">
+       =20
+       =20
+
+
+
+        <div class=3D"snippet-hidden" id=3D"content">
+           =20
+
+<div itemscope=3D"" itemtype=3D"http://schema.org/Question">
+    <link href=3D"https://cdn.sstatic.net/stackoverflow/img/apple-touch-ico=
+n.png?v=3D41f6e13ade69" itemprop=3D"image">
+			<!--googleoff: all-->
+
+
+			<!--googleon: all-->
+			<div id=3D"question-header">
+                <h1 itemprop=3D"name"><a class=3D"question-hyperlink" href=
+=3D"https://stackoverflow.com/questions/428313/a-machine-has-2-nics-which-o=
+ne-will-be-utilized-when-connecting-to-a-socket">A machine has 2 NICs. Whic=
+h one will be utilized when connecting to a socket?</a></h1>
+		</div>
+			<div id=3D"mainbar">
+
+		=09
+
+<div class=3D"question" data-questionid=3D"428313" id=3D"question">
+
+   =20
+            <div class=3D"everyonelovesstackoverflow" id=3D"adzerk160098360=
+9">
+            </div>    <table>
+        <tbody><tr>
+            <td class=3D"votecell">
+               =20
+
+<div class=3D"vote">
+        <input name=3D"_id_" type=3D"hidden" value=3D"428313">
+        <a class=3D"vote-up-off" title=3D"This question shows research effo=
+rt; it is useful and clear">up vote</a>
+        <span class=3D"vote-count-post " itemprop=3D"upvoteCount">3</span>
+        <a class=3D"vote-down-off" title=3D"This question does not show any=
+ research effort; it is unclear or not useful">down vote</a>
+
+        <a class=3D"star-off" href=3D"#" title=3D"This is a favorite questi=
+on (click again to undo)">favorite</a>
+        <div class=3D"favoritecount"><b>1</b></div>
+
+
+</div>
+
+            </td>
+           =20
+<td class=3D"postcell">
+<div>
+    <div class=3D"post-text" itemprop=3D"text">
+
+<p>Suppose I create a very simple socket connection, how can one programati=
+cally:</p>
+
+<ol>
+<li>Find out what interface (ip address
+/ NIC) is being used. </li>
+<li>Force the other interface</li>
+</ol>
+    </div>
+    <div class=3D"post-taglist">
+        <a class=3D"post-tag js-gps-track" href=3D"https://stackoverflow.co=
+m/questions/tagged/sockets" rel=3D"tag" title=3D"show questions tagged &#x2=
+7;sockets&#x27;">sockets</a>=20
+    </div>
+    <table class=3D"fw">
+    <tbody><tr>
+    <td class=3D"vt">
+<div class=3D"post-menu"><a class=3D"short-link" href=3D"https://stackoverf=
+low.com/q/428313" id=3D"link-post-428313" title=3D"short permalink to this =
+question">share</a><span class=3D"lsep">|</span><a class=3D"suggest-edit-po=
+st" href=3D"https://stackoverflow.com/posts/428313/edit" title=3D"">improve=
+ this question</a></div>       =20
+    </td>
+    <td align=3D"right" class=3D"post-signature">
+<div class=3D"user-info ">
+    <div class=3D"user-action-time">
+        <a href=3D"https://stackoverflow.com/posts/428313/revisions" title=
+=3D"show all edits to this post">edited <span class=3D"relativetime" title=
+=3D"2013-09-03 14:29:22Z">Sep 3 &#x27;13 at 14:29</span></a>
+    </div>
+    <div class=3D"user-gravatar32">
+       =20
+    </div>
+    <div class=3D"user-details">
+        <br>
+       =20
+    </div>
+</div>    </td>
+    <td class=3D"post-signature owner">
+        <div class=3D"user-info user-hover">
+    <div class=3D"user-action-time">
+        asked <span class=3D"relativetime" title=3D"2009-01-09 14:48:14Z">J=
+an 9 &#x27;09 at 14:48</span>
+    </div>
+    <div class=3D"user-gravatar32">
+        <a href=3D"https://stackoverflow.com/users/21634/bogdan-gavril-msft=
+"><div class=3D"gravatar-wrapper-32"><img alt=3D"" height=3D"32" src=3D"c58=
+8cdbb9603f01a610597f17633bc6d" width=3D"32"></div></a>
+    </div>
+    <div class=3D"user-details">
+        <a href=3D"https://stackoverflow.com/users/21634/bogdan-gavril-msft=
+">Bogdan Gavril - MSFT</a><br>
+        <span class=3D"reputation-score" dir=3D"ltr" title=3D"reputation sc=
+ore ">5,142</span><span title=3D"5 gold badges"><span class=3D"badge1"></sp=
+an><span class=3D"badgecount">5</span></span><span title=3D"30 silver badge=
+s"><span class=3D"badge2"></span><span class=3D"badgecount">30</span></span=
+><span title=3D"47 bronze badges"><span class=3D"badge3"></span><span class=
+=3D"badgecount">47</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</div>
+</td>
+        </tr>
+               =20
+<tr>
+    <td class=3D"votecell"></td>
+    <td>
+	    <div class=3D"comments " id=3D"comments-428313">
+		    <table>
+                <tbody data-addlink-disabled=3D"true" data-canpost=3D"false=
+" data-cansee=3D"true" data-comments-unavailable=3D"false" data-remaining-c=
+omments-count=3D"7">
+
+
+
+    <tr class=3D"comment " id=3D"comment-251887">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=3D" comment-score">
+                                &#xa0;&#xa0;
+                        </td>
+                        <td>
+                                &#xa0;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class=3D"comment-text">
+            <div class=3D"comment-body" style=3D"display: block;">
+                <span class=3D"comment-copy">You need to specify a programm=
+ing language and operating system if you want your question to be answered.=
+</span>
+                =E2=80=93&#xa0;
+                    <a class=3D"comment-user" href=3D"https://stackoverflow=
+.com/users/2405/william-brendel" title=3D"17417 reputation">William Brendel=
+</a>
+                <span class=3D"comment-date" dir=3D"ltr"><a class=3D"commen=
+t-link" href=3D"#comment251887_428313"><span class=3D"relativetime-clean" t=
+itle=3D"2009-01-09 14:49:22Z">Jan 9 &#x27;09 at 14:49</span></a></span>
+                                                                           =
+ </div>
+                    </td>
+    </tr>
+    <tr class=3D"comment " id=3D"comment-251893">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=3D" comment-score">
+                                &#xa0;&#xa0;
+                        </td>
+                        <td>
+                                &#xa0;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class=3D"comment-text">
+            <div class=3D"comment-body" style=3D"display: block;">
+                <span class=3D"comment-copy">Agreed, this is simple to do i=
+n most languages, but you need to specify what you are working in.</span>
+                =E2=80=93&#xa0;
+                    <a class=3D"comment-user" href=3D"https://stackoverflow=
+.com/users/5640/geochet" title=3D"14745 reputation">GEOCHET</a>
+                <span class=3D"comment-date" dir=3D"ltr"><a class=3D"commen=
+t-link" href=3D"#comment251893_428313"><span class=3D"relativetime-clean" t=
+itle=3D"2009-01-09 14:50:43Z">Jan 9 &#x27;09 at 14:50</span></a></span>
+                                                                           =
+ </div>
+                    </td>
+    </tr>
+    <tr class=3D"comment " id=3D"comment-251896">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=3D" comment-score">
+                                &#xa0;&#xa0;
+                        </td>
+                        <td>
+                                &#xa0;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class=3D"comment-text">
+            <div class=3D"comment-body" style=3D"display: block;">
+                <span class=3D"comment-copy">are you connecting or listenin=
+g?</span>
+                =E2=80=93&#xa0;
+                    <a class=3D"comment-user" href=3D"https://stackoverflow=
+.com/users/42404/frankodwyer" title=3D"9927 reputation">frankodwyer</a>
+                <span class=3D"comment-date" dir=3D"ltr"><a class=3D"commen=
+t-link" href=3D"#comment251896_428313"><span class=3D"relativetime-clean" t=
+itle=3D"2009-01-09 14:51:10Z">Jan 9 &#x27;09 at 14:51</span></a></span>
+                                                                           =
+ </div>
+                    </td>
+    </tr>
+    <tr class=3D"comment " id=3D"comment-252038">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=3D" comment-score">
+                                &#xa0;&#xa0;
+                        </td>
+                        <td>
+                                &#xa0;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class=3D"comment-text">
+            <div class=3D"comment-body" style=3D"display: block;">
+                <span class=3D"comment-copy">@Rich: the OP talks about &quo=
+t;sockets&quot;.  Doesn&#x27;t that always mean BSD sockets, which are impl=
+emented in basically the same way on every platform?</span>
+                =E2=80=93&#xa0;
+                    <a class=3D"comment-user" href=3D"https://stackoverflow=
+.com/users/47984/j-random-hacker" title=3D"31994 reputation">j_random_hacke=
+r</a>
+                <span class=3D"comment-date" dir=3D"ltr"><a class=3D"commen=
+t-link" href=3D"#comment252038_428313"><span class=3D"relativetime-clean" t=
+itle=3D"2009-01-09 15:31:56Z">Jan 9 &#x27;09 at 15:31</span></a></span>
+                                                                           =
+ </div>
+                    </td>
+    </tr>
+    <tr class=3D"comment " id=3D"comment-252053">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=3D" comment-score">
+                                &#xa0;&#xa0;
+                        </td>
+                        <td>
+                                &#xa0;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class=3D"comment-text">
+            <div class=3D"comment-body" style=3D"display: block;">
+                <span class=3D"comment-copy">@j_random_hacker: Um. If you t=
+hink Java, C#, and C all handle sockets the same way, you are doing somethi=
+ng very wrong.</span>
+                =E2=80=93&#xa0;
+                    <a class=3D"comment-user" href=3D"https://stackoverflow=
+.com/users/5640/geochet" title=3D"14745 reputation">GEOCHET</a>
+                <span class=3D"comment-date" dir=3D"ltr"><a class=3D"commen=
+t-link" href=3D"#comment252053_428313"><span class=3D"relativetime-clean" t=
+itle=3D"2009-01-09 15:36:52Z">Jan 9 &#x27;09 at 15:36</span></a></span>
+                                                                           =
+ </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div data-anon=3D"true" data-rep=3D"50" id=3D"comments-link-428313">
+
+                <a class=3D"js-add-link comments-link  dno" title=3D"Use co=
+mments to ask for more information or suggest improvements. Avoid answering=
+ questions in comments."></a><span class=3D"js-link-separator dno">&#xa0;|&=
+#xa0;</span>
+            <a class=3D"js-show-link comments-link " href=3D"#" onclick=3D"=
+" title=3D"expand to show all comments on this post">show <b>7</b> more com=
+ments</a>
+        </div>        =20
+    </td>
+</tr>        </tbody></table>
+</div>
+
+			<div id=3D"answers">
+
+				<a name=3D"tab-top"></a>
+				<div id=3D"answers-header">
+					<div class=3D"subheader answers-subheader">
+						<h2>
+								3 Answers
+                                <span itemprop=3D"answerCount" style=3D"dis=
+play: none;">3</span>
+						</h2>
+						<div>
+							<div id=3D"tabs">
+        <a href=3D"https://stackoverflow.com/questions/428313/a-machine-has=
+-2-nics-which-one-will-be-utilized-when-connecting-to-a-socket?answertab=3D=
+active#tab-top" title=3D"Answers with the latest activity first">active</a>
+        <a href=3D"https://stackoverflow.com/questions/428313/a-machine-has=
+-2-nics-which-one-will-be-utilized-when-connecting-to-a-socket?answertab=3D=
+oldest#tab-top" title=3D"Answers in the order they were provided">oldest</a>
+        <a class=3D"youarehere" href=3D"https://stackoverflow.com/questions=
+/428313/a-machine-has-2-nics-which-one-will-be-utilized-when-connecting-to-=
+a-socket?answertab=3Dvotes#tab-top" title=3D"Answers with the highest score=
+ first">votes</a>
+</div>
+						</div>
+					</div>   =20
+				</div>   =20
+
+
+
+
+ =20
+<a name=3D"428802"></a>
+<div class=3D"answer accepted-answer" data-answerid=3D"428802" id=3D"answer=
+-428802" itemprop=3D"acceptedAnswer" itemscope=3D"" itemtype=3D"http://sche=
+ma.org/Answer">
+
+    <table>
+        <tbody><tr>
+            <td class=3D"votecell">
+               =20
+
+<div class=3D"vote">
+        <input name=3D"_id_" type=3D"hidden" value=3D"428802">
+        <a class=3D"vote-up-off" title=3D"This answer is useful">up vote</a>
+        <span class=3D"vote-count-post " itemprop=3D"upvoteCount">10</span>
+        <a class=3D"vote-down-off" title=3D"This answer is not useful">down=
+ vote</a>
+
+
+
+        <span class=3D"vote-accepted-on load-accepted-answer-date" title=3D=
+"loading when this answer was accepted...">accepted</span>
+
+</div>
+
+            </td>
+           =20
+
+
+<td class=3D"answercell">
+    <div class=3D"post-text" itemprop=3D"text">
+<p>Whatever language you are using, you will ultimately be using a sockets =
+library layered on top of an implementation of the original <strong>BSD soc=
+kets</strong> C networking library.  Although you may need to change some t=
+hings for different libraries and languages, the following information shou=
+ld at least be helpful in targeting where to look in your library&#x27;s do=
+cumentation.</p>
+
+<h2>Servers</h2>
+
+<p>Normally, a server program issues the following sequence of calls:</p>
+
+<ol>
+<li><code>socket()</code> returns a &quot;floating&quot; socket object.</li>
+<li><code>bind()</code> binds the socket to a particular well-known port nu=
+mber on (usually) all network interface cards (NICs) in the machine.</li>
+<li><code>listen()</code> causes the socket to go &quot;live&quot;.</li>
+<li><code>accept()</code> blocks until a connection from a client machine i=
+s made.</li>
+</ol>
+
+<p><span class=3D"linemarker-marked-line" style=3D"background-color: #FFFF0=
+0; color: #000000;">The point where you can decide which NIC to use is in t=
+he call to </span><code><span class=3D"linemarker-marked-line" style=3D"bac=
+kground-color: #FFFF00; color: #000000;">bind()</span></code>, which expect=
+s a data structure containing an IP address and a port number.  The usual s=
+trategy is to pass the special value <code>INADDR_ANY</code> for the IP add=
+ress, indicating that connections should use any and all NICs in the machin=
+e, however a particular NIC&#x27;s IP can be specified instead to receive c=
+onnections only via that NIC.</p>
+
+<h2>Clients</h2>
+
+<p>Normally, a client program issues the following sequence of calls:</p>
+
+<ol>
+<li><code>socket()</code> returns a &quot;floating&quot; socket object.</li>
+<li><code>connect()</code> binds the socket to a randomly selected port on =
+a randomly selected NIC and attempts to connect to the remote <code>host:po=
+rt</code> combination specified.</li>
+</ol>
+
+<p>So how can a client choose what NIC to use?  <span class=3D"linemarker-m=
+arked-line" style=3D"background-color: #FFFF00; color: #000000;">A client c=
+an also choose to call </span><code><span class=3D"linemarker-marked-line" =
+style=3D"background-color: #FFFF00; color: #000000;">bind()</span></code><s=
+pan class=3D"linemarker-marked-line" style=3D"background-color: #FFFF00; co=
+lor: #000000;"> if it so desires, after </span><code><span class=3D"linemar=
+ker-marked-line" style=3D"background-color: #FFFF00; color: #000000;">socke=
+t()</span></code><span class=3D"linemarker-marked-line" style=3D"background=
+-color: #FFFF00; color: #000000;"> and before </span><code><span class=3D"l=
+inemarker-marked-line" style=3D"background-color: #FFFF00; color: #000000;"=
+>connect()</span></code><span class=3D"linemarker-marked-line" style=3D"bac=
+kground-color: #FFFF00; color: #000000;"></span>.  Usually this isn&#x27;t =
+done simply because <code>connect()</code> will automatically bind an unbou=
+nd socket in a way that enables access via any NIC (which is usually the de=
+sired behaviour), but this auto-binding  can be turned off by calling <code=
+>bind()</code> explicitly.  In this case, you should specify 0 for the port=
+ number to have the OS choose a random port number for you.</p>
+
+<p>Once a connection has been made, you can call <code>getsockname()</code>=
+ to get information about the socket, such as which IP it is bound to (i.e.=
+ which NIC it is communicating through) and what port number was assigned (=
+in the case of a client program).</p>
+    </div>
+    <table class=3D"fw">
+    <tbody><tr>
+    <td class=3D"vt">
+<div class=3D"post-menu"><a class=3D"short-link" href=3D"https://stackoverf=
+low.com/a/428802" id=3D"link-post-428802" title=3D"short permalink to this =
+answer">share</a><span class=3D"lsep">|</span><a class=3D"suggest-edit-post=
+" href=3D"https://stackoverflow.com/posts/428802/edit" title=3D"">improve t=
+his answer</a></div>                    </td>
+           =20
+
+
+    <td align=3D"right" class=3D"post-signature">  =20
+      =20
+
+    <div class=3D"user-info ">
+    <div class=3D"user-action-time">
+        answered <span class=3D"relativetime" title=3D"2009-01-09 16:41:25Z=
+">Jan 9 &#x27;09 at 16:41</span>
+    </div>
+    <div class=3D"user-gravatar32">
+        <a href=3D"https://stackoverflow.com/users/47984/j-random-hacker"><=
+div class=3D"gravatar-wrapper-32"><img alt=3D"" height=3D"32" src=3D"d3149c=
+f105b708746f1c4eb0a63a5c24" width=3D"32"></div></a>
+    </div>
+    <div class=3D"user-details">
+        <a href=3D"https://stackoverflow.com/users/47984/j-random-hacker">j=
+_random_hacker</a><br>
+        <span class=3D"reputation-score" dir=3D"ltr" title=3D"reputation sc=
+ore 31994">32k</span><span title=3D"3 gold badges"><span class=3D"badge1"><=
+/span><span class=3D"badgecount">3</span></span><span title=3D"53 silver ba=
+dges"><span class=3D"badge2"></span><span class=3D"badgecount">53</span></s=
+pan><span title=3D"108 bronze badges"><span class=3D"badge3"></span><span c=
+lass=3D"badgecount">108</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+       =20
+<tr>
+    <td class=3D"votecell"></td>
+    <td>
+	    <div class=3D"comments  dno" id=3D"comments-428802">
+		    <table>
+                <tbody data-addlink-disabled=3D"true" data-canpost=3D"false=
+" data-cansee=3D"true" data-comments-unavailable=3D"false" data-remaining-c=
+omments-count=3D"0">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div data-anon=3D"true" data-rep=3D"50" id=3D"comments-link-428802">
+
+                <a class=3D"js-add-link comments-link disabled-link " title=
+=3D"Use comments to ask for more information or suggest improvements. Avoid=
+ comments like =E2=80=9C+1=E2=80=9D or =E2=80=9Cthanks=E2=80=9D.">add a com=
+ment</a><span class=3D"js-link-separator dno">&#xa0;|&#xa0;</span>
+            <a class=3D"js-show-link comments-link dno" href=3D"#" onclick=
+=3D"" title=3D"expand to show all comments on this post"></a>
+        </div>        =20
+    </td>
+</tr>    </tbody></table>
+</div>
+
+            <div class=3D"everyonelovesstackoverflow" id=3D"adzerk117953585=
+0">
+            </div>
+ =20
+<a name=3D"428353"></a>
+<div class=3D"answer" data-answerid=3D"428353" id=3D"answer-428353" itemsco=
+pe=3D"" itemtype=3D"http://schema.org/Answer">
+
+    <table>
+        <tbody><tr>
+            <td class=3D"votecell">
+               =20
+
+<div class=3D"vote">
+        <input name=3D"_id_" type=3D"hidden" value=3D"428353">
+        <a class=3D"vote-up-off" title=3D"This answer is useful">up vote</a>
+        <span class=3D"vote-count-post " itemprop=3D"upvoteCount">2</span>
+        <a class=3D"vote-down-off" title=3D"This answer is not useful">down=
+ vote</a>
+
+
+
+
+</div>
+
+            </td>
+           =20
+
+
+<td class=3D"answercell">
+    <div class=3D"post-text" itemprop=3D"text">
+<p>a. After a connection is established, most socket APIs have a call for s=
+omething like &quot;getLocalAddress&quot; that will tell you the interface =
+that the OS selected for you.</p>
+
+<p>b. Similarly, after a socket is created but before a connection is estab=
+lished, most socket APIs have a call to bind the socket to a local address =
+and/or port.</p>
+    </div>
+    <table class=3D"fw">
+    <tbody><tr>
+    <td class=3D"vt">
+<div class=3D"post-menu"><a class=3D"short-link" href=3D"https://stackoverf=
+low.com/a/428353" id=3D"link-post-428353" title=3D"short permalink to this =
+answer">share</a><span class=3D"lsep">|</span><a class=3D"suggest-edit-post=
+" href=3D"https://stackoverflow.com/posts/428353/edit" title=3D"">improve t=
+his answer</a></div>                    </td>
+           =20
+
+
+    <td align=3D"right" class=3D"post-signature">  =20
+      =20
+
+    <div class=3D"user-info user-hover">
+    <div class=3D"user-action-time">
+        answered <span class=3D"relativetime" title=3D"2009-01-09 14:55:03Z=
+">Jan 9 &#x27;09 at 14:55</span>
+    </div>
+    <div class=3D"user-gravatar32">
+        <a href=3D"https://stackoverflow.com/users/22704/darron"><div class=
+=3D"gravatar-wrapper-32"><img alt=3D"" height=3D"32" src=3D"333b8a55b916403=
+8b686c9751006674d" width=3D"32"></div></a>
+    </div>
+    <div class=3D"user-details">
+        <a href=3D"https://stackoverflow.com/users/22704/darron">Darron</a>=
+<br>
+        <span class=3D"reputation-score" dir=3D"ltr" title=3D"reputation sc=
+ore 14218">14.2k</span><span title=3D"3 gold badges"><span class=3D"badge1"=
+></span><span class=3D"badgecount">3</span></span><span title=3D"34 silver =
+badges"><span class=3D"badge2"></span><span class=3D"badgecount">34</span><=
+/span><span title=3D"50 bronze badges"><span class=3D"badge3"></span><span =
+class=3D"badgecount">50</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+       =20
+<tr>
+    <td class=3D"votecell"></td>
+    <td>
+	    <div class=3D"comments  dno" id=3D"comments-428353">
+		    <table>
+                <tbody data-addlink-disabled=3D"true" data-canpost=3D"false=
+" data-cansee=3D"true" data-comments-unavailable=3D"false" data-remaining-c=
+omments-count=3D"0">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div data-anon=3D"true" data-rep=3D"50" id=3D"comments-link-428353">
+
+                <a class=3D"js-add-link comments-link disabled-link " title=
+=3D"Use comments to ask for more information or suggest improvements. Avoid=
+ comments like =E2=80=9C+1=E2=80=9D or =E2=80=9Cthanks=E2=80=9D.">add a com=
+ment</a><span class=3D"js-link-separator dno">&#xa0;|&#xa0;</span>
+            <a class=3D"js-show-link comments-link dno" href=3D"#" onclick=
+=3D"" title=3D"expand to show all comments on this post"></a>
+        </div>        =20
+    </td>
+</tr>    </tbody></table>
+</div>
+
+ =20
+<a name=3D"428335"></a>
+<div class=3D"answer" data-answerid=3D"428335" id=3D"answer-428335" itemsco=
+pe=3D"" itemtype=3D"http://schema.org/Answer">
+
+    <table>
+        <tbody><tr>
+            <td class=3D"votecell">
+               =20
+
+<div class=3D"vote">
+        <input name=3D"_id_" type=3D"hidden" value=3D"428335">
+        <a class=3D"vote-up-off" title=3D"This answer is useful">up vote</a>
+        <span class=3D"vote-count-post " itemprop=3D"upvoteCount">1</span>
+        <a class=3D"vote-down-off" title=3D"This answer is not useful">down=
+ vote</a>
+
+
+
+
+</div>
+
+            </td>
+           =20
+
+
+<td class=3D"answercell">
+    <div class=3D"post-text" itemprop=3D"text">
+<p>You will find these links usefull, since the question doesn&#x27;t provi=
+de a language, here&#x27;s for the most common ones.</p>
+
+<p><a href=3D"http://www.uwo.ca/its/doc/courses/notes/socket/" rel=3D"nofol=
+low">Socket Programming in C</a></p>
+
+<p><a href=3D"http://www.developerfusion.com/article/3918/socket-programmin=
+g-in-c-part-1/" rel=3D"nofollow">Socket Programming in C#</a></p>
+
+<p><a href=3D"http://www.javaworld.com/javaworld/jw-12-1996/jw-12-sockets.h=
+tml" rel=3D"nofollow">Socket Programming in Java</a></p>
+
+<p><a href=3D"http://www.amk.ca/python/howto/sockets/" rel=3D"nofollow">Soc=
+ket Programming in Python</a></p>
+
+<p>So, use any of these links and go to the languge you are using. Find the=
+ function for getting your host address or ip address and use the Bind meth=
+od for the appropriet language. This will force the application to bind to =
+that interface.</p>
+    </div>
+    <table class=3D"fw">
+    <tbody><tr>
+   =20
+    <td align=3D"right" class=3D"post-signature">
+<div class=3D"user-info ">
+    <div class=3D"user-action-time">
+        <a href=3D"https://stackoverflow.com/posts/428335/revisions" title=
+=3D"show all edits to this post">edited <span class=3D"relativetime" title=
+=3D"2009-01-09 15:00:16Z">Jan 9 &#x27;09 at 15:00</span></a>
+    </div>
+    <div class=3D"user-gravatar32">
+       =20
+    </div>
+    <div class=3D"user-details">
+        <br>
+       =20
+    </div>
+</div>    </td>
+           =20
+
+
+    <td align=3D"right" class=3D"post-signature">  =20
+      =20
+
+    <div class=3D"user-info user-hover">
+    <div class=3D"user-action-time">
+        answered <span class=3D"relativetime" title=3D"2009-01-09 14:52:41Z=
+">Jan 9 &#x27;09 at 14:52</span>
+    </div>
+    <div class=3D"user-gravatar32">
+        <a href=3D"https://stackoverflow.com/users/39106/filip-ekberg"><div=
+ class=3D"gravatar-wrapper-32"><img alt=3D"" height=3D"32" src=3D"d93a2a83a=
+ca89c19e00f5eb37a831983" width=3D"32"></div></a>
+    </div>
+    <div class=3D"user-details">
+        <a href=3D"https://stackoverflow.com/users/39106/filip-ekberg">Fili=
+p Ekberg</a><br>
+        <span class=3D"reputation-score" dir=3D"ltr" title=3D"reputation sc=
+ore 23889">23.9k</span><span title=3D"15 gold badges"><span class=3D"badge1=
+"></span><span class=3D"badgecount">15</span></span><span title=3D"84 silve=
+r badges"><span class=3D"badge2"></span><span class=3D"badgecount">84</span=
+></span><span title=3D"156 bronze badges"><span class=3D"badge3"></span><sp=
+an class=3D"badgecount">156</span></span>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+       =20
+<tr>
+    <td class=3D"votecell"></td>
+    <td>
+	    <div class=3D"comments  dno" id=3D"comments-428335">
+		    <table>
+                <tbody data-addlink-disabled=3D"true" data-canpost=3D"false=
+" data-cansee=3D"true" data-comments-unavailable=3D"false" data-remaining-c=
+omments-count=3D"0">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div data-anon=3D"true" data-rep=3D"50" id=3D"comments-link-428335">
+
+                <span class=3D"js-link-separator dno">&#xa0;|&#xa0;</span>
+            <a class=3D"js-show-link comments-link dno" href=3D"#" onclick=
+=3D"" title=3D"expand to show all comments on this post"></a>
+        </div>        =20
+    </td>
+</tr>    </tbody></table>
+</div>
+									<a name=3D"new-answer"></a>
+					=09
+
+
+
+					=09
+			</div>
+		</div>
+			=09
+=09
+<div id=3D"feed-link">
+   =20
+</div>=09
+<div id=3D"prettify-lang" style=3D"display: none;"></div></div>
+
+
+
+        </div>
+    </div>
+   =20
+   =20
+
+
+
+               =20
+   =20
+
+
+</body></html>
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F
+Content-Location: file:///C:/Users/Mahmood/AppData/Roaming/Mozilla/Firefox/Profiles/17bac1g3.default/ScrapBook/data/20150522214650/index.css
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/css
+
+/* ::::: https://cdn.sstatic.net/stackoverflow/all.css?v=3De7baf0bec6b1 :::=
+:: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, b=
+lockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, f=
+ont, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b=
+, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, tabl=
+e, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; bo=
+rder: 0px none; font-size: 100%; }
+.topbar { font-size: 13px; }
+.topbar .topbar-icon, .topbar .date-group-toggle, .topbar .icon-help > .tri=
+angle { background-color: transparent; background-repeat: no-repeat; backgr=
+ound-image: url('share-sprite-new.svg'), none; }
+.topbar { width: 100%; background: rgba(0, 0, 0, 0.86) none repeat scroll 0=
+% 0%; height: 34px; line-height: 1; }
+.topbar input[type=3D"text"] { transition: none 0s ease 0s ; border: 1px so=
+lid rgb(203, 203, 203); font-size: 100%; font-family: "Helvetica Neue",Helv=
+etica,Arial,sans-serif ! important; border-radius: 0px; padding: 3px; margi=
+n: 5px 0px; }
+.topbar .topbar-wrapper { width: 980px; margin: 0px auto; height: 34px; tex=
+t-align: left; position: relative; }
+.topbar .network-items { display: inline-block; vertical-align: top; }
+.topbar .hidden-text { position: absolute; top: -200px; }
+.topbar .icon-site-switcher { width: 150px; background-position: 10px -20px=
+; }
+.topbar .icon-help { padding-right: 4px ! important; }
+.topbar .icon-help .triangle { background-position: -119px -30px; display: =
+inline-block; width: 11px; height: 13px; vertical-align: top; }
+.topbar .topbar-icon { display: inline-block; height: 34px; vertical-align:=
+ top; text-align: center; }
+.topbar .yes-hover:hover { background-color: rgb(68, 68, 68); text-decorati=
+on: none ! important; }
+.topbar .topbar-links { vertical-align: top; position: absolute; right: 0px=
+; top: 0px; font-size: 13px; font-family: "Helvetica Neue",Helvetica,Arial,=
+sans-serif ! important; }
+.topbar .topbar-links .topbar-menu-links { margin-left: 15px; margin-top: -=
+10px; display: inline-block; vertical-align: top; font-size: 0px; }
+.topbar .topbar-links .topbar-menu-links a, .topbar .topbar-links .topbar-m=
+enu-links a:visited { color: rgb(224, 224, 224); text-decoration: none; dis=
+play: inline-block; height: 24px; padding: 10px 7px 0px; vertical-align: to=
+p; font-size: 13px; }
+.topbar .topbar-links .topbar-menu-links a:hover { background-color: rgb(68=
+, 68, 68); }
+.topbar .topbar-links .links-container { display: inline-block; vertical-al=
+ign: top; padding-top: 10px; }
+.topbar .topbar-links .search-container { display: inline-block; vertical-a=
+lign: top; margin-top: 1px; }
+.topbar .topbar-links .search-container input[type=3D"text"] { width: 188px=
+; height: 16px; margin-left: 20px; margin-bottom: 0px; font-size: 13px; fon=
+t-family: "Helvetica Neue",Helvetica,Arial,sans-serif ! important; color: r=
+gb(136, 136, 136); border: 1px solid rgb(0, 0, 0); padding-top: 2px ! impor=
+tant; padding-bottom: 2px ! important; padding-right: 5px; background-image=
+: url('share-sprite-new.svg'), none; background-repeat: no-repeat; backgrou=
+nd-color: rgb(255, 255, 255); background-position: -269px -92px ! important=
+; padding-left: 22px ! important; }
+.topbar .topbar-links .search-container input[type=3D"text"]:focus { color:=
+ rgb(68, 68, 68); }
+.topbar .topbar-links .search-container form { margin: 0px; padding: 0px; }
+.topbar-dialog { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !=
+ important; color: rgb(61, 61, 61); font-size: 12px; background-color: rgb(=
+255, 255, 255); box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2); z-index: 999; p=
+osition: absolute; text-align: left; border-left: 1px solid rgb(224, 224, 2=
+24); border-right: 1px solid rgb(224, 224, 224); border-bottom: 1px solid r=
+gb(224, 224, 224); }
+.topbar-dialog a { color: rgb(0, 119, 204); text-decoration: none; }
+.topbar-dialog a:visited { color: rgb(24, 82, 154); }
+.topbar-dialog a:hover { color: rgb(1, 84, 144); text-decoration: none; }
+.topbar-dialog .related-links { color: rgb(136, 136, 136); }
+.topbar-dialog .related-links a, .topbar-dialog .related-links a:visited { =
+margin-left: 10px; color: rgb(0, 119, 204); }
+.topbar-dialog.siteSwitcher-dialog { width: 375px; overflow-y: scroll; over=
+flow-x: hidden; min-height: 390px; max-height: 390px; }
+.topbar-dialog.siteSwitcher-dialog .call-to-login { padding: 7px 0px; text-=
+align: center; line-height: 1.3; }
+.topbar-dialog.siteSwitcher-dialog .modal-content { padding: 0px; }
+.topbar-dialog.siteSwitcher-dialog .modal-content li:first-child { padding-=
+top: 2px; }
+.topbar-dialog.siteSwitcher-dialog .modal-content li:last-child { padding-b=
+ottom: 2px; }
+.topbar-dialog.siteSwitcher-dialog .modal-content li { padding-left: 7px; p=
+adding-right: 7px; }
+.topbar-dialog.siteSwitcher-dialog #your-communities-section.modal-content =
+{ max-height: none; }
+.topbar-dialog.siteSwitcher-dialog .current-site-container { background-col=
+or: rgb(246, 252, 255); border-left: 3px solid rgb(47, 150, 232); }
+.topbar-dialog.siteSwitcher-dialog .current-site .current-site-link { font-=
+weight: bold; }
+.topbar-dialog.siteSwitcher-dialog .current-site .related-links { float: ri=
+ght; display: inline-block; }
+.topbar-dialog.siteSwitcher-dialog .current-site li { border: medium none; }
+.topbar-dialog.siteSwitcher-dialog .current-site li:hover { background-colo=
+r: rgb(232, 243, 250); }
+.topbar-dialog.siteSwitcher-dialog .L-shaped-icon-container { float: left; =
+padding: 0px; margin: 8px 6px 0px 5px; }
+.topbar-dialog.siteSwitcher-dialog .L-shaped-icon { width: 10px; height: 10=
+px; border-style: solid; border-color: rgb(185, 193, 197); -moz-border-top-=
+colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: no=
+ne; -moz-border-left-colors: none; border-image: none; border-width: 0px 0p=
+x 1px 1px; display: inline-block; }
+.topbar-dialog.help-dialog { width: 215px; }
+.topbar-dialog.help-dialog .item-summary { display: block; color: rgb(61, 6=
+1, 61); margin-top: 4px; }
+.topbar-dialog.help-dialog a { display: block; }
+.topbar-dialog ul { padding-left: 0px; margin-left: 0px; margin-bottom: 0px=
+; }
+.topbar-dialog ul li { list-style: outside none none; margin-left: 0px; lin=
+e-height: 1.3; }
+.topbar-dialog .header { background-color: rgb(240, 240, 240); width: 100%;=
+ box-sizing: border-box; padding: 7px 10px 4px; position: relative; clear: =
+both; }
+.topbar-dialog .header h3, .topbar-dialog .header h3 a { font-family: "Helv=
+etica Neue",Helvetica,Arial,sans-serif ! important; color: rgb(102, 102, 10=
+2); font-weight: bold; font-variant: small-caps; line-height: 0.8; display:=
+ inline-block; }
+.topbar-dialog .modal-content { width: 100%; box-sizing: border-box; paddin=
+g: 10px 7px; max-height: 300px; margin: 1px 0px; position: relative; }
+.topbar-dialog .modal-content li { border-bottom: 1px solid rgb(238, 238, 2=
+38); margin-bottom: 0px; }
+.topbar-dialog .modal-content li:hover { background-color: rgb(250, 250, 25=
+0); }
+.topbar-dialog .modal-content li > * { padding: 7px 3px; }
+.topbar-dialog .modal-content li > a { display: block; }
+.topbar-dialog .modal-content li:last-child { border-bottom: medium none; }
+.topbar-dialog .site-icon { width: 16px; height: 16px; vertical-align: top;=
+ margin-right: 5px; display: inline-block; }
+#side-menu ul li a:hover::after, #side-menu ul li a.youarehere::after { bac=
+kground-position: -34px -370px; }
+#side-menu ul li a::after { content: ""; display: inline-block; width: 8px;=
+ height: 15px; position: absolute; right: 14px; background-image: url('user=
+-profile-sprite.svg'), none; background-repeat: no-repeat; background-posit=
+ion: -21px -370px; }
+#side-menu ul.external a::after { background-position: -48px -369px; width:=
+ 15px; }
+#side-menu ul.external a:hover::after { background-position: -69px -369px; }
+#filter-bar .tag-filter ul li a.filter-switcher::after, #filter-bar .show-f=
+ilter ul li a.filter-switcher::after, #filter-bar .sort-filter ul li a.filt=
+er-switcher::after { position: absolute; content: ""; width: 16px; height: =
+16px; margin: 19px 5px 0px 0px; top: -14px; right: 0px; background: transpa=
+rent url('filter-sprites.svg') no-repeat scroll 0px 0px; }
+#filter-bar .layout-settings .expanded-layout a::after { content: ""; float=
+: right; width: 16px; height: 16px; margin: 4px; background: transparent ur=
+l('filter-sprites.svg') no-repeat scroll 0px -49px; }
+#filter-bar .layout-settings .collapsed-layout a::after { content: ""; floa=
+t: right; width: 16px; height: 16px; margin: 4px; background: transparent u=
+rl('filter-sprites.svg') no-repeat scroll 0px -33px; }
+.fw { width: 100%; }
+.favicon { width: 16px; height: 16px; }
+div.favicon { display: inline-block; }
+.favicon { background-color: transparent; background-repeat: no-repeat; bac=
+kground-image: url('favicons-sprite16.png'); }
+@media only screen and (min--moz-device-pixel-ratio: 1.5), not all, not all=
+, not all {
+	.favicon { background-image: url('favicons-sprite32.png'); background-size=
+: 16px 5562px; }
+}
+.favicon-askubuntu { background-position: 0px -216px; }
+.favicon-boardgames { background-position: 0px -576px; }
+.favicon-careers { background-position: 0px -720px; }
+.favicon-chemistry { background-position: 0px -738px; }
+.favicon-codereview { background-position: 0px -954px; }
+.favicon-dba { background-position: 0px -1350px; }
+.favicon-ell { background-position: 0px -1674px; }
+.favicon-english { background-position: 0px -1782px; }
+.favicon-gaming { background-position: 0px -2070px; }
+.favicon-math { background-position: 0px -2898px; }
+.favicon-music { background-position: 0px -3186px; }
+.favicon-parenting { background-position: 0px -3402px; }
+.favicon-puzzling { background-position: 0px -3798px; }
+.favicon-salesforce { background-position: 0px -4122px; }
+.favicon-stackoverflow { background-position: 0px -4788px; }
+.favicon-stackoverflowmeta { background-position: 0px -4806px; }
+.favicon-stats { background-position: 0px -4878px; }
+.favicon-travel { background-position: 0px -5058px; }
+.favicon-unix { background-position: 0px -5130px; }
+.favicon-ux { background-position: 0px -5166px; }
+.favicon-worldbuilding { background-position: 0px -5490px; }
+.message.message-config .message-tip.message-tip-top-right::before, .messag=
+e.message-config .message-tip.message-tip-top-left::before { width: 0px; he=
+ight: 0px; border-left: 6px solid transparent; border-right: 6px solid tran=
+sparent; border-bottom: 6px solid rgb(255, 255, 255); top: -12px; }
+.message.message-config .message-tip.message-tip-top-right::before { right:=
+ 12px; }
+.message.message-config .message-tip.message-tip-top-left::before { left: 1=
+2px; }
+.message.message-config .actions::after { display: table; content: " "; cle=
+ar: both; }
+.message.message-config .actions .button::after { content: " "; display: in=
+line-block; background-image: url('user-profile-sprite.svg'), none; backgro=
+und-position: -15px -409px; width: 7px; height: 10px; position: relative; t=
+op: 2px; left: 4px; }
+.message.message-config.tooltip .message-inner::before { display: none; }
+.popup-badges .filtering::after { display: table; content: " "; clear: both=
+; }
+.popup-badges .all-badge-progress::after { display: table; content: " "; cl=
+ear: both; }
+.popup-badges .all-badge-progress .badge-progress:hover:not(.completed) { b=
+ackground: rgb(234, 234, 234) none repeat scroll 0% 0%; cursor: pointer; }
+.popup-badges .all-badge-progress .badge-progress:hover:not(.completed) .ba=
+rs-wrapper .bar { background: rgb(216, 216, 216) none repeat scroll 0% 0%; }
+.popup-badges .all-badge-progress .completed::before, .popup-badges .all-ba=
+dge-progress .completed::after { content: ""; display: block; position: abs=
+olute; }
+.popup-badges .all-badge-progress .completed::before { top: 0px; right: 0px=
+; bottom: 0px; left: 0px; background: rgba(234, 234, 234, 0.4) none repeat =
+scroll 0% 0%; z-index: 1; }
+.popup-badges .all-badge-progress .completed::after { z-index: 2; backgroun=
+d-image: url('user-profile-sprite.svg'), none; background-position: -62px -=
+402px; width: 12px; height: 10px; top: 10px; right: 10px; }
+.envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vo=
+te-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-=
+flag, .edited-yes, .feed-icon, .vote-accepted-off, .vote-accepted-on, .vote=
+-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arr=
+ow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-=
+small-show, .anonymous-gravatar, .badge1, .badge2, .badge3 { background-ima=
+ge: url('sprites.png'); background-repeat: no-repeat; overflow: hidden; }
+.vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-o=
+ff, .vote-accepted-off, .vote-accepted-on { display: block; margin: 0px aut=
+o 2px; text-indent: -999em; width: 40px; height: 40px; }
+.vote-up-off, .vote-down-off, .vote-accepted-off, .star-off, .comment-up-of=
+f, .flag-off { cursor: pointer; }
+.vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-o=
+ff, .comment-up-off, .comment-up-on, .comment-flag, .flag-off, .vote-accept=
+ed-off, .vote-accepted-on { text-indent: -9999em; font-size: 1px; }
+.vote-up-off { background-position: 0px -170px; }
+.vote-down-off { background-position: 0px -220px; margin-bottom: 8px; }
+.star-off { background-position: 0px -120px; }
+.vote-accepted-on { background-position: -40px -270px; }
+.badgecount { font-size: 12px; font-weight: bold; padding-left: 2px; color:=
+ rgb(128, 129, 133); }
+.badge1, .badge2, .badge3 { display: inline-block; overflow: hidden; line-h=
+eight: inherit; vertical-align: text-bottom; width: 14px; height: 14px; }
+.badge1 { background-position: -97px -398px; }
+.badge2 { background-position: -77px -398px; }
+.badge3 { background-position: -57px -398px; }
+.post-tag { color: rgb(86, 110, 118); background: rgb(247, 253, 255) none r=
+epeat scroll 0% 0%; border: 1px solid rgb(192, 212, 219); padding: 0.4em 0.=
+5em; border-radius: 15px; margin: 2px 2px 2px 0px; text-decoration: none; t=
+ext-align: center; font-size: 11px; line-height: 1; white-space: nowrap; di=
+splay: inline-block; }
+.post-tag:hover { text-decoration: none; }
+.wmd-button-bar { height: 44px; clear: both; background-color: transparent;=
+ margin: 10px 0px 0px; padding: 0px 12px; width: 634px; float: left; border=
+-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(204,=
+ 204, 204) rgb(204, 204, 204) -moz-use-text-color; -moz-border-top-colors: =
+none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz=
+-border-left-colors: none; border-image: none; }
+.wmd-button-bar .wmd-spacer, .wmd-button-bar .wmd-spacer1, .wmd-button-bar =
+.wmd-spacer2, .wmd-button-bar .wmd-spacer3 { border: medium none; }
+.wmd-button-bar #wmd-redo-button { border: medium none; padding-right: 14px=
+; }
+.wmd-input { padding: 10px; height: 200px; line-height: 1.3; width: 660px; =
+font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sa=
+ns Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; }
+.wmd-button-row { position: relative; padding: 0px; height: 36px; margin: 0=
+px; }
+.wmd-spacer { width: 1px; height: 44px; margin-left: 14px; position: absolu=
+te; display: inline-block; list-style: outside none none; border-right: 1px=
+ solid rgb(204, 204, 204); }
+.wmd-button { width: 20px; height: 32px; padding: 12px 0px 0px; position: a=
+bsolute; display: inline-block; list-style: outside none none; cursor: poin=
+ter; }
+.wmd-button > span { background-repeat: no-repeat; background-position: 0px=
+ 0px; width: 20px; height: 20px; display: inline-block; }
+.wmd-input { -moz-tab-size: 4; box-sizing: border-box; }
+.wmd-button > span { background-image: url('wmd-buttons.svg'), none; backgr=
+ound-size: initial ! important; }
+@media not all, not all, not all, not all {
+	.wmd-button > span { background-image: url('wmd-buttons.svg'), none; }
+}
+textarea#wmd-input { font-family: Consolas,Menlo,Monaco,Lucida Console,Libe=
+ration Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace=
+,serif; }
+.grippie, .wmd-preview { margin-top: -4px; }
+.wmd-preview { box-sizing: border-box; padding: 10px 0px; border-top: 1px d=
+otted rgb(204, 204, 204); border-bottom: 1px dotted rgb(204, 204, 204); cle=
+ar: both; }
+#footer { padding-top: 20px; }
+#footer #footer-menu { margin-bottom: 1.5em; line-height: 1.7em; }
+#footer #footer-menu a { margin: 0px; }
+#footer #footer-menu a.more { font-weight: bold; }
+#footer #footer-menu .top-footer-links a { margin: 0px 0.8em 0px 0px; }
+#footer #copyright { font-size: 100%; font-weight: bold; border: medium non=
+e; color: rgb(119, 119, 119); padding: 0px; }
+#footer #copyright a { text-decoration: none; }
+#footer #svnrev { text-align: left; font-size: 10px; margin-bottom: 10px; c=
+olor: rgb(204, 204, 204); }
+#footer #footer-sites { clear: both; width: 1000px; margin: 1.5em auto; }
+#footer th, #footer td { margin: 0px; width: 130px; padding: 0px 15px 0px 0=
+px; text-align: left; text-transform: uppercase; font-size: 0.9em; }
+#footer th { color: rgb(119, 119, 119); padding-bottom: 1em; line-height: 1=
+.3; }
+#footer td { vertical-align: top; }
+#footer li { list-style: outside none none; line-height: 1.3em; margin-bott=
+om: 10px; text-transform: none; font-size: 1em; }
+#footer ol { margin: 0px; }
+.footerwrap { width: 1000px; padding: 15px; margin: 0px auto; text-align: l=
+eft; box-sizing: content-box; }
+#footer { clear: both; }
+#footer-menu { float: left; }
+#svnrev { margin-top: 5px; text-align: right; }
+#copyright { font-size: 11px; }
+.informative-tooltip.arrow::before { content: ""; display: block; width: 0p=
+x; height: 0px; position: absolute; }
+.informative-tooltip.arrow.up-left::before, .informative-tooltip.arrow.up-c=
+enter::before, .informative-tooltip.arrow.up-right::before { border-left: 5=
+px solid transparent; border-right: 5px solid transparent; border-bottom: 5=
+px solid rgb(71, 71, 71); top: -5px; }
+.informative-tooltip.arrow.up-center::before { left: 50%; margin-left: -5px=
+; }
+.informative-tooltip.arrow.up-left::before { left: 10px; }
+.informative-tooltip.arrow.up-right::before { right: 10px; }
+.informative-tooltip.arrow.down-left::before, .informative-tooltip.arrow.do=
+wn-center::before, .informative-tooltip.arrow.down-right::before { border-l=
+eft: 5px solid transparent; border-right: 5px solid transparent; border-top=
+: 5px solid rgb(71, 71, 71); bottom: -5px; }
+.informative-tooltip.arrow.down-center::before { left: 50%; margin-left: -5=
+px; }
+.informative-tooltip.arrow.down-left::before { left: 10px; }
+.informative-tooltip.arrow.down-right::before { right: 10px; }
+.informative-tooltip.arrow.left-top::before, .informative-tooltip.arrow.lef=
+t-center::before, .informative-tooltip.arrow.left-bottom::before { border-t=
+op: 5px solid transparent; border-bottom: 5px solid transparent; border-rig=
+ht: 5px solid rgb(71, 71, 71); left: -5px; }
+.informative-tooltip.arrow.left-center::before { top: 50%; margin-top: -5px=
+; }
+.informative-tooltip.arrow.left-top::before { top: 10px; }
+.informative-tooltip.arrow.left-bottom::before { bottom: 10px; }
+.informative-tooltip.arrow.right-top::before, .informative-tooltip.arrow.ri=
+ght-center::before, .informative-tooltip.arrow.right-bottom::before { borde=
+r-top: 5px solid transparent; border-bottom: 5px solid transparent; border-=
+left: 5px solid rgb(71, 71, 71); right: -5px; }
+.informative-tooltip.arrow.right-center::before { top: 50%; margin-top: -5p=
+x; }
+.informative-tooltip.arrow.right-top::before { top: 10px; }
+.informative-tooltip.arrow.right-bottom::before { bottom: 10px; }
+.css-tooltip[data-title]:hover::after { content: attr(data-title); backgrou=
+nd: rgb(71, 71, 71) none repeat scroll 0% 0%; padding: 0.8em; max-width: 20=
+0px; color: rgb(255, 255, 255); font-size: 12px; border-radius: 3px; positi=
+on: absolute; z-index: 99; left: 0px; top: 100%; }
+.dropdown::before { position: absolute; z-index: 101; content: ""; width: 1=
+6px; height: 16px; top: -11px; right: 4px; background: transparent url('fil=
+ter-sprites.svg') no-repeat scroll -16px 0px; }
+.topbar .profile-me .new-feature-wrapper .new-feature::before { content: ""=
+; display: block; width: 0px; height: 0px; border-left: 6px solid transpare=
+nt; border-right: 6px solid transparent; border-bottom: 4px solid rgb(255, =
+153, 0); position: absolute; top: -4px; left: 50%; margin-left: -3px; }
+input[type=3D"submit"], input[type=3D"button"], button, .button, a.button, =
+a.button:visited, .btn { cursor: pointer; display: inline-block; color: rgb=
+(255, 255, 255); line-height: 1; padding: 0.6em 0.8em; background: rgb(0, 1=
+54, 253) none repeat scroll 0% 0%; transition: background 0.15s ease 0s, co=
+lor 0.15s ease 0s; border: 1px solid rgb(23, 119, 183); box-shadow: 0px 1px=
+ 0px rgba(255, 255, 255, 0.3) inset, 0px 1px 1px rgba(100, 100, 100, 0.3); =
+border-radius: 3px; }
+input[type=3D"submit"][disabled], input[type=3D"button"][disabled], button[=
+disabled], .button[disabled], a.button[disabled], a.button[disabled]:visite=
+d, .btn[disabled], input[type=3D"submit"]:disabled, input[type=3D"button"]:=
+disabled, button:disabled, .button:disabled, a.button:disabled, a.button:vi=
+sited:disabled, .btn:disabled { opacity: 0.3; pointer-events: none; }
+input[type=3D"submit"]:hover, input[type=3D"button"]:hover, button:hover, .=
+button:hover, a.button:hover, a.button:visited:hover, .btn:hover { color: r=
+gb(255, 255, 255); background: rgb(0, 135, 222) none repeat scroll 0% 0%; }
+body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size:=
+ 13px; line-height: 1.3em; color: rgb(34, 34, 34); background: rgb(255, 255=
+, 255) none repeat scroll 0% 0%; min-width: 1030px; }
+ol, ul { list-style: outside none none; }
+blockquote::before, blockquote::after, q::before, q::after { content: none;=
+ }
+.question .postcell { vertical-align: top; }
+table { border-collapse: collapse; border-spacing: 0px; }
+code { font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,De=
+jaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif; b=
+ackground-color: rgb(238, 238, 238); }
+textarea { font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mon=
+o,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-seri=
+f; border: 1px solid rgb(153, 153, 153); }
+.form-submit { padding: 10px 0px 15px; display: block; }
+.form-submit input:hover { cursor: pointer; }
+.form-submit input:active { position: relative; top: 1px; }
+input, select, button, .button, a.button:link { font-size: 100%; }
+input { margin: 5px 0px; padding: 3px; }
+b, strong { font-weight: bold; }
+ul { list-style: outside none disc; margin-left: 30px; margin-bottom: 1em; }
+p { clear: both; margin-bottom: 1em; }
+p code { padding: 1px 5px; }
+ol { list-style: outside none decimal; margin-left: 30px; margin-bottom: 1e=
+m; }
+a { text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a.comment-user { white-space: nowrap; padding: 0px; }
+a { color: rgb(0, 119, 204); text-decoration: none; }
+a:hover { color: rgb(48, 167, 252); text-decoration: none; }
+.question-hyperlink { font-size: 16px; font-weight: 400; }
+.answer-hyperlink, .question-hyperlink { color: rgb(0, 119, 204); line-heig=
+ht: 1.3; margin-bottom: 1.2em; }
+.answer-hyperlink:hover, .question-hyperlink:hover, .answer-hyperlink:activ=
+e, .question-hyperlink:active { color: rgb(48, 167, 252); }
+.post-text a:visited, .comment-text a:visited:not(.comment-user) { color: r=
+gb(12, 101, 165); }
+.question-hyperlink:visited, .answer-hyperlink:visited, #hot-network-questi=
+ons ul a:visited { color: rgb(12, 101, 165); }
+h1 { font-size: 22px; line-height: 1.3; margin-bottom: 1em; }
+h2 { font-size: 18px; line-height: 1.3; margin-bottom: 1em; }
+h3 { font-size: 15px; line-height: 1.3; margin-bottom: 1em; }
+tr.comment > td { padding: 6px 6px 6px 0px; border-bottom: 1px solid rgb(24=
+0, 240, 240); line-height: 1.3; font-size: 13px; vertical-align: top; }
+.comment-text { padding: 0px 6px 0px 7px; vertical-align: text-top; }
+.dno { display: none; }
+.vt { vertical-align: top; }
+.vm { vertical-align: middle; }
+.fw { margin-bottom: 4px; width: 100%; }
+.votecell { vertical-align: top; padding-right: 15px; }
+.votecell .vote-count-post { margin: 8px 0px; }
+.votecell .vote { min-width: 46px; }
+#answers { clear: both; padding-top: 10px; width: 728px; }
+.answer { padding-bottom: 20px; padding-top: 20px; width: 728px; }
+.post-signature { text-align: left; vertical-align: top; width: 175px; heig=
+ht: 58px; padding: 5px; }
+.owner { background-color: rgb(224, 234, 241); }
+.reputation-score { font-weight: bold; font-size: 12px; margin-right: 2px; }
+.relativetime { text-decoration: none; }
+#notify-container { font-size: 16px; text-align: center; position: fixed; l=
+eft: 0px; top: 0px; width: 100%; height: 0px; z-index: 100; }
+.lsep { margin: 0px 2px; color: rgb(27, 64, 114); font-size: 1px; visibilit=
+y: hidden; }
+.post-taglist { margin-bottom: 10px; clear: both; }
+.post-menu { padding-top: 2px; }
+.post-menu > a { padding: 0px 3px 2px; color: rgb(136, 136, 136); }
+.post-menu > a:hover { color: rgb(68, 68, 68); text-decoration: none; }
+.post-menu .lsep { margin: 0px; padding: 0px; }
+.comments { width: 660px; margin-top: 10px; padding-bottom: 10px; line-heig=
+ht: 135%; font-size: 13px; border-top: 1px solid rgb(224, 224, 224); }
+.comments > table { width: 100%; }
+.comments-link { padding: 0px 3px 2px; }
+a.comments-link:hover { padding: 0px 3px 2px; text-decoration: none; }
+tr.comment > td { line-height: 1.3; }
+.comment-date { color: rgb(153, 153, 153); }
+.user-info { height: 35px; width: 190px; }
+.user-info .user-gravatar32 { float: left; width: 32px; height: 32px; }
+.user-info .user-action-time { margin-top: 2px; margin-bottom: 4px; }
+.user-info .user-details { float: left; margin-left: 5px; width: 150px; ove=
+rflow: hidden; white-space: nowrap; }
+.user-details { color: rgb(136, 136, 136); line-height: 17px; }
+.user-details .badgecount { font-weight: normal ! important; font-size: 12p=
+x; }
+#answers-header { margin-top: 10px; width: 728px; }
+#question-header { clear: both; padding: 5px 0px; border-bottom: 1px solid =
+rgb(229, 229, 229); margin-bottom: 1em; }
+#question-header h1 { margin-bottom: 0.5em; }
+#question-header .question-hyperlink { font-size: 24px; line-height: 1.35; =
+font-weight: normal; margin-bottom: 0.5em; }
+.answer-votes { color: rgb(85, 85, 85); text-align: center; float: left; pa=
+dding: 4px; min-width: 20px; height: 15px; text-decoration: none; }
+#mainbar h2, .mainbar h2, #mainbar h3, .mainbar h3, #mainbar h4, .mainbar h=
+4 { font-weight: 400; }
+.container { margin: 0px auto; text-align: left; width: 100%; }
+#content { min-height: 450px; margin: 0px auto; box-sizing: content-box; wi=
+dth: 1000px; padding: 15px; background-color: rgb(255, 255, 255); }
+#content::after { display: table; content: " "; clear: both; }
+#header { margin: 0px auto; width: 1000px; height: 96px; padding: 0px 15px;=
+ box-sizing: content-box; position: relative; }
+#hmenus { position: absolute; right: 15px; top: 55px; }
+#hmenus .mainnavs, #hmenus .askquestion { display: inline-block; }
+#hlogo { float: left; }
+#hlogo a { display: block; text-indent: -999999em; text-decoration: none; w=
+idth: 250px; height: 60px; }
+#hlogo a:focus { outline: medium none; border: medium none; }
+#hlogo a:active { outline: medium none; border: medium none; }
+.nav ul { margin: 0px; }
+.nav ul li { display: inline-block; margin-left: 15px; }
+.nav ul li a { text-decoration: none; display: block; }
+.nav.askquestion li { margin-right: 0px; }
+#tabs, .tabs { float: right; }
+#tabs a, .tabs a { float: left; text-decoration: none; display: block; padd=
+ing: 11px 0px 12px; margin: 0px 20px 0px 0px; }
+#tabs a:last-child, .tabs a:last-child { margin-right: 0px; }
+#tabs a.youarehere, .tabs a.youarehere { font-weight: 700; }
+#sidebar, .sidebar { float: right; overflow: hidden; width: 220px; margin: =
+0px 0px 15px; }
+#sidebar h4, .sidebar h4 { margin-bottom: 1em; }
+#mainbar, .mainbar { float: left; width: 728px; margin: 0px; padding: 0px; }
+#mainbar-full::after, .mainbar-full::after { display: table; content: " "; =
+clear: both; }
+#feed-link { text-align: right; float: right; clear: both; margin: 15px; wh=
+ite-space: nowrap; }
+#feed-link-text { float: left; }
+.subheader { clear: both; margin-bottom: 15px; height: 40px; border-bottom:=
+ 1px solid rgb(224, 224, 224); }
+.subheader h2 { color: rgb(68, 68, 68); font-size: 18px; float: left; font-=
+weight: normal; margin-bottom: 0px; }
+.question { clear: both; }
+.vote-count-post { display: block; font-size: 20px; margin: 0px 0px 3px; }
+.answered-accepted { color: rgb(225, 232, 24); background-color: rgb(117, 1=
+32, 92); }
+.started a:not(.started-link), .started .mod-flair { font-size: 12px; color=
+: rgb(0, 119, 204); }
+.started a:hover:not(.started-link), .started .mod-flair:hover { color: rgb=
+(48, 167, 252); }
+.module { margin-bottom: 1.5em; }
+.module .spacer { margin-bottom: 8px; }
+.module ul { margin-left: 15px; list-style-type: square; margin-right: 30px=
+; line-height: 120%; }
+.module li { margin-bottom: 4px; }
+.module h4 { font-size: 14px; color: rgb(68, 68, 68); font-weight: normal; }
+.vote { text-align: center; }
+.vote span { display: block; color: rgb(119, 119, 119); }
+.favoritecount { text-align: center; }
+.favoritecount b { color: rgb(119, 119, 119); font-weight: normal; }
+.post-text, .wmd-preview { width: 660px; margin-bottom: 5px; word-wrap: bre=
+ak-word; font-size: 15px; line-height: 1.3; }
+.post-text code, .wmd-preview code { font-size: 13px; }
+.post-text li, .wmd-preview li { word-wrap: break-word; }
+.post-text h2, .wmd-preview h2, .post-text h2 code, .wmd-preview h2 code { =
+font-size: 19px; margin-bottom: 1em; }
+.post-text ul li, .wmd-preview ul li, .post-text ol li, .wmd-preview ol li =
+{ margin-bottom: 0.5em; }
+.post-text h1, .wmd-preview h1, .post-text h2, .wmd-preview h2, .post-text =
+h3, .wmd-preview h3, .post-text h4, .wmd-preview h4, .post-text h5, .wmd-pr=
+eview h5, .post-text h6, .wmd-preview h6 { font-weight: bold ! important; }
+.form-item { padding: 10px 0px 15px; }
+.form-item label { display: block; font-weight: bold; padding-bottom: 3px; }
+span.feed-icon { display: inline-block; text-decoration: none; vertical-ali=
+gn: middle; background-position: -79px -320px; width: 24px; height: 16px; }
+.post-editor { margin-top: 10px; width: 660px; }
+.community-option { float: right; color: rgb(136, 136, 136); font-weight: n=
+ormal; height: 32px; padding-right: 4px; font-size: 10px; position: relativ=
+e; top: -2px; }
+.edit-block { display: none; }
+.everyonelovesstackoverflow { margin-bottom: 10px; }
+.related { line-height: 1.3; font-size: 12px; }
+.related a { font-size: 12px; font-weight: normal; }
+.linked { line-height: 1.3; font-size: 12px; }
+.linked a { font-size: 12px; font-weight: normal; }
+.cbt { clear: both; }
+.space { padding-top: 20px; }
+.label-key { color: rgb(153, 153, 153); font-size: 14px; }
+.label-key b, .label-key strong { color: rgb(68, 68, 68); font-weight: norm=
+al; }
+.bottom-notice { margin-top: 15px; font-weight: normal; padding: 0px 10px 0=
+px 0px; line-height: 1.4; font-size: 16px; }
+.fl { float: left; }
+.vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty { display: blo=
+ck; margin: 0px auto; }
+.lastactivity-link { color: inherit; background-color: transparent; }
+td.answercell { vertical-align: top; }
+html { min-width: 1000px; }
+code { white-space: pre-wrap; padding: 1px 5px; }
+.disabled-link { color: rgb(136, 136, 136); opacity: 0.6; padding: 0px 3px =
+2px; }
+.show-votes .sidebar-linked a, .show-votes .sidebar-related a { display: in=
+line-block; vertical-align: top; font-weight: normal; margin-bottom: 0px; }
+.show-votes .sidebar-linked .answer-votes, .show-votes .sidebar-related .an=
+swer-votes { background-color: rgb(238, 238, 238); color: rgb(68, 68, 68); =
+font-size: 90%; font-weight: normal; margin-right: 5px; padding: 2px 0px; m=
+argin-top: 2px; }
+.show-votes .sidebar-linked .question-hyperlink, .show-votes .sidebar-relat=
+ed .question-hyperlink { width: 163px; }
+.show-votes .sidebar-linked .spacer, .show-votes .sidebar-related .spacer {=
+ margin-bottom: 12px; }
+.comment-date, .comment-date > a { border-bottom: medium none; color: rgb(1=
+53, 153, 153); }
+.existing-flag-count::before { content: "("; }
+.existing-flag-count::after { content: ")"; }
+#overlay-header { opacity: 0; display: none; background: rgba(255, 255, 255=
+, 0.95) none repeat scroll 0% 0%; font-size: 16px; font-weight: normal; tex=
+t-align: center; left: 0px; padding: 0.5em 10%; position: fixed; top: 0px; =
+width: 80%; z-index: 250; box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3); }
+.answer-votes { cursor: pointer; }
+#hot-network-questions h4 a { font-weight: inherit; font-size: inherit; wid=
+th: inherit; }
+#hot-network-questions ul { margin: 0px; }
+#hot-network-questions li { list-style-type: none; white-space: nowrap; mar=
+gin-bottom: 10px; margin-left: 0px; }
+#hot-network-questions img, #hot-network-questions a, #hot-network-question=
+s .favicon { display: inline-block; vertical-align: top; }
+#hot-network-questions img, #hot-network-questions .favicon { margin: 2px 6=
+px 0px 0px; }
+#hot-network-questions a { font-weight: normal; font-size: 12px; white-spac=
+e: normal; width: 90%; }
+.gravatar-wrapper-32 { padding: 0px; width: 32px; height: 32px; overflow: h=
+idden; }
+.gravatar-wrapper-32 img { height: 32px; margin: 0px auto; }
+.user-info.user-hover .user-gravatar32, .user-info.user-hover .user-gravata=
+r48 { box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); border-collapse: separate=
+; }
+.comments {  }
+.user-show-new .user-panel.user-panel-left::before { display: table; conten=
+t: " "; clear: both; }
+.user-show-new .user-panel .subheader::after { display: table; content: " "=
+; clear: both; }
+textarea { resize: none; }
+.post-edit-section-link::before { content: "["; color: rgb(0, 0, 0); }
+.post-edit-section-link::after { content: "]"; color: rgb(0, 0, 0); }
+.ask-page .privacy-policy-agreement, .question-page .privacy-policy-agreeme=
+nt { margin-top: 15px; }
+.question-page #answers .answer { border-bottom: 1px solid rgb(240, 240, 24=
+0); }
+.privacy-policy-agreement { font-style: italic; }
+.new-login-form { margin-top: 15px; width: 670px; }
+.new-login-form h3 { font-size: 1.5em; margin-bottom: 1em; }
+.new-login-form input[type=3D"text"], .new-login-form input[type=3D"email"]=
+ { border: 1px solid rgb(153, 153, 153); font-size: 100%; font-family: "Hel=
+vetica Neue",Helvetica,Arial,sans-serif; margin: 5px 0px; padding: 3px; bor=
+der-radius: 0px; }
+.new-login-form p { margin: 0px; }
+.new-login-form .new-login-left { display: inline-block; vertical-align: to=
+p; width: 275px; }
+.new-login-form .form-item { color: rgb(136, 136, 136); background: rgb(249=
+, 249, 249) none repeat scroll 0% 0%; border: 1px solid rgb(212, 212, 212);=
+ box-shadow: -1px 1px rgb(242, 242, 242); padding: 7px 10px 9px; }
+.new-login-form .form-item label { color: inherit; margin-top: 3px; }
+.new-login-form .new-login-right { width: 275px; margin-right: 70px; float:=
+ right; display: inline-block; vertical-align: top; }
+.preferred-login { background: rgb(249, 249, 249) none repeat scroll 0% 0%;=
+ width: 258px; border: 1px solid rgb(212, 212, 212); box-shadow: -1px 1px r=
+gb(242, 242, 242); color: rgb(136, 136, 136); padding: 7px; margin-bottom: =
+15px; cursor: pointer; height: 16px; }
+.preferred-login p > span { vertical-align: top; }
+.preferred-login .icon { background-image: url('new-login-sprite.png'); wid=
+th: 16px; height: 16px; display: inline-block; margin-right: 12px; }
+.preferred-login.google-login .icon { background-position: 0px 0px; }
+.preferred-login.facebook-login .icon { background-position: -19px 0px; }
+.preferred-login.stackexchange-login .icon { background-position: -38px 0px=
+; }
+.search-module .advanced-tips table tr td:nth-child(1) { color: rgb(135, 13=
+5, 135); padding-right: 4px; }
+.module { word-wrap: break-word; }
+.about-page .new-about-content-page .shadow::after { content: ""; display: =
+block; width: 25px; height: 100%; background: transparent url('sprite-about=
+-shadow.png') no-repeat scroll right center; z-index: 500; position: absolu=
+te; top: 10px; left: 506px; }
+.message.message-error .message-tip::before { content: ""; position: absolu=
+te; }
+.message.message-error .message-tip-left-top::before { top: 0px; left: -9px=
+; border-top: 9px solid rgb(192, 72, 72); border-left: 9px solid transparen=
+t; }
+.message.message-error .message-tip-top-left::before { top: -9px; left: 0px=
+; border-top: 9px solid transparent; border-left: 9px solid rgb(192, 72, 72=
+); }
+.message.message-error .message-tip-left-bottom::before { bottom: 0px; left=
+: -9px; border-top: 9px solid transparent; border-right: 9px solid rgb(192,=
+ 72, 72); }
+.message.message-error .message-tip-bottom-left::before { top: 100%; left: =
+0px; border-top: 9px solid rgb(192, 72, 72); border-right: 9px solid transp=
+arent; }
+.message.message-error .message-tip-right-top::before { top: 0px; left: 100=
+%; border-top: 9px solid rgb(192, 72, 72); border-right: 9px solid transpar=
+ent; }
+.message.message-error .message-tip-top-right::before { top: -9px; right: 0=
+px; border-top: 9px solid transparent; border-right: 9px solid rgb(192, 72,=
+ 72); }
+.message.message-error .message-tip-right-bottom::before { bottom: 0px; lef=
+t: 100%; border-top: 9px solid transparent; border-left: 9px solid rgb(192,=
+ 72, 72); }
+.message.message-error .message-tip-bottom-right::before { top: 100%; right=
+: 0px; border-top: 9px solid rgb(192, 72, 72); border-left: 9px solid trans=
+parent; }
+.message.message-info .message-tip::before { content: ""; position: absolut=
+e; }
+.message.message-info .message-tip-left-top::before { top: 0px; left: -9px;=
+ border-top: 9px solid rgb(0, 119, 221); border-left: 9px solid transparent=
+; }
+.message.message-info .message-tip-top-left::before { top: -9px; left: 0px;=
+ border-top: 9px solid transparent; border-left: 9px solid rgb(0, 119, 221)=
+; }
+.message.message-info .message-tip-left-bottom::before { bottom: 0px; left:=
+ -9px; border-top: 9px solid transparent; border-right: 9px solid rgb(0, 11=
+9, 221); }
+.message.message-info .message-tip-bottom-left::before { top: 100%; left: 0=
+px; border-top: 9px solid rgb(0, 119, 221); border-right: 9px solid transpa=
+rent; }
+.message.message-info .message-tip-right-top::before { top: 0px; left: 100%=
+; border-top: 9px solid rgb(0, 119, 221); border-right: 9px solid transpare=
+nt; }
+.message.message-info .message-tip-top-right::before { top: -9px; right: 0p=
+x; border-top: 9px solid transparent; border-right: 9px solid rgb(0, 119, 2=
+21); }
+.message.message-info .message-tip-right-bottom::before { bottom: 0px; left=
+: 100%; border-top: 9px solid transparent; border-left: 9px solid rgb(0, 11=
+9, 221); }
+.message.message-info .message-tip-bottom-right::before { top: 100%; right:=
+ 0px; border-top: 9px solid rgb(0, 119, 221); border-left: 9px solid transp=
+arent; }
+.message.message-warning .message-tip::before { content: ""; position: abso=
+lute; }
+.message.message-warning .message-tip-left-top::before { top: 0px; left: -9=
+px; border-top: 9px solid rgb(192, 168, 71); border-left: 9px solid transpa=
+rent; }
+.message.message-warning .message-tip-top-left::before { top: -9px; left: 0=
+px; border-top: 9px solid transparent; border-left: 9px solid rgb(192, 168,=
+ 71); }
+.message.message-warning .message-tip-left-bottom::before { bottom: 0px; le=
+ft: -9px; border-top: 9px solid transparent; border-right: 9px solid rgb(19=
+2, 168, 71); }
+.message.message-warning .message-tip-bottom-left::before { top: 100%; left=
+: 0px; border-top: 9px solid rgb(192, 168, 71); border-right: 9px solid tra=
+nsparent; }
+.message.message-warning .message-tip-right-top::before { top: 0px; left: 1=
+00%; border-top: 9px solid rgb(192, 168, 71); border-right: 9px solid trans=
+parent; }
+.message.message-warning .message-tip-top-right::before { top: -9px; right:=
+ 0px; border-top: 9px solid transparent; border-right: 9px solid rgb(192, 1=
+68, 71); }
+.message.message-warning .message-tip-right-bottom::before { bottom: 0px; l=
+eft: 100%; border-top: 9px solid transparent; border-left: 9px solid rgb(19=
+2, 168, 71); }
+.message.message-warning .message-tip-bottom-right::before { top: 100%; rig=
+ht: 0px; border-top: 9px solid rgb(192, 168, 71); border-left: 9px solid tr=
+ansparent; }
+.message.message-config .message-tip::before { content: ""; position: absol=
+ute; }
+.message.message-config .message-tip-left-top::before { top: 0px; left: -6p=
+x; border-top: 6px solid rgb(255, 255, 255); border-left: 6px solid transpa=
+rent; }
+.message.message-config .message-tip-top-left::before { top: -6px; left: 0p=
+x; border-top: 6px solid transparent; border-left: 6px solid rgb(255, 255, =
+255); }
+.message.message-config .message-tip-left-bottom::before { bottom: 0px; lef=
+t: -6px; border-top: 6px solid transparent; border-right: 6px solid rgb(255=
+, 255, 255); }
+.message.message-config .message-tip-bottom-left::before { top: 100%; left:=
+ 0px; border-top: 6px solid rgb(255, 255, 255); border-right: 6px solid tra=
+nsparent; }
+.message.message-config .message-tip-right-top::before { top: 0px; left: 10=
+0%; border-top: 6px solid rgb(255, 255, 255); border-right: 6px solid trans=
+parent; }
+.message.message-config .message-tip-top-right::before { top: -6px; right: =
+0px; border-top: 6px solid transparent; border-right: 6px solid rgb(255, 25=
+5, 255); }
+.message.message-config .message-tip-right-bottom::before { bottom: 0px; le=
+ft: 100%; border-top: 6px solid transparent; border-left: 6px solid rgb(255=
+, 255, 255); }
+.message.message-config .message-tip-bottom-right::before { top: 100%; righ=
+t: 0px; border-top: 6px solid rgb(255, 255, 255); border-left: 6px solid tr=
+ansparent; }
+#herobox-mini { width: 100%; height: 50px; margin: 10px auto; border: 1px s=
+olid rgb(223, 223, 223); background-color: rgb(255, 255, 255); font-size: 1=
+10%; line-height: 1.2; font-family: "Helvetica Neue",Helvetica,Arial,sans-s=
+erif; }
+#herobox-mini #hero-content { height: 44px; background-color: rgb(240, 240,=
+ 240); background-image: url('mini-hero-bg.png'); background-repeat: repeat=
+; border: 3px solid rgb(255, 255, 255); }
+#herobox-mini #close { margin-top: 2px; margin-right: 2px; cursor: pointer;=
+ }
+#herobox-mini #close a { padding: 0px 6px 3px; margin: 0px; font-size: 16px=
+; font-weight: bold; color: rgb(128, 128, 128) ! important; line-height: 1;=
+ vertical-align: baseline; text-decoration: none; }
+#herobox-mini #blurb { padding: 0px 5px; width: 750px; display: table-cell;=
+ vertical-align: middle; height: 44px; }
+#herobox-mini #controls { float: right; display: table-cell; margin-top: 5p=
+x; }
+.post-text h1, .post-text h2, .post-text h3, .post-text h4, .post-text h5, =
+.post-text h6 { word-wrap: break-word; }
+#custom-header { display: none; }
+input[type=3D"text"], input[type=3D"url"], input[type=3D"email"], input[typ=
+e=3D"tel"], textarea { font-family: "Helvetica Neue",Helvetica,Arial,sans-s=
+erif; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(6=
+8, 68, 68); border: 1px solid rgb(204, 204, 204); font-size: 14px; padding:=
+ 8px 10px; }
+a#tell-me-more { display: inline-block; }
+.topbar .topbar-wrapper { width: 1000px; padding-left: 0px; padding-right: =
+30px; position: relative; }
+.topbar .topbar-wrapper .icon-site-switcher { width: 147px; background-posi=
+tion: 9px -20px; }
+.topbar .topbar-wrapper .topbar-links .topbar-menu-links { margin-left: 10p=
+x; }
+.topbar .topbar-wrapper .topbar-links { right: 15px; }
+.topbar .topbar-wrapper .topbar-dialog .header h3 { margin-bottom: 5px; }
+h4#h-linked { margin-top: 15px; }
+#large-user-info::after { content: ""; display: table; clear: both; }
+.envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vo=
+te-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-=
+flag, .edited-yes, .feed-icon, .vote-accepted-off, .vote-accepted-on, .vote=
+-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arr=
+ow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-=
+small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .gp-share, .fb-=
+share, .twitter-share, #notify-container span.notify-close, .migrated.to, .=
+migrated.from { background-image: url('sprites.svg'), none; background-size=
+: initial; }
+.vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on { height: 30px; }
+.vote-down-off, .vote-down-on { margin-bottom: 10px; }
+.star-on, .star-off { height: 30px; }
+#hlogo { display: inline-block; }
+#hlogo a { text-indent: -999em; display: block; width: 200px; height: 50px;=
+ background-image: url('sprites.svg'), none; background-position: left top;=
+ background-repeat: no-repeat; position: relative; top: 5px; }
+#hmenus { top: 42px; }
+#hmenus .nav ul li { display: inline-block; margin: 0px 6px 0px 0px; paddin=
+g: 0px; }
+#hmenus .nav ul li a { padding: 4px 10px 5px; font-size: 14px; line-height:=
+ 1.3; color: rgb(255, 255, 255); background: rgb(133, 141, 147) none repeat=
+ scroll 0% 0%; transition: background 0s ease 0s, all 0.15s ease 0s, all 0s=
+ ease 0s; }
+#hmenus .nav ul li.youarehere a, #hmenus .nav ul li a:hover { color: rgb(25=
+5, 255, 255); background: rgb(255, 153, 0) none repeat scroll 0% 0%; }
+.subheader { height: 34px; border-bottom: 1px solid rgb(224, 224, 224); }
+#tabs, .tabs { height: 38px; }
+#tabs a, .tabs a { background: rgb(255, 255, 255) none repeat scroll 0% 0%;=
+ border-width: 2px 1px 1px; border-style: solid; border-color: transparent =
+transparent rgb(224, 224, 224); -moz-border-top-colors: none; -moz-border-r=
+ight-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors=
+: none; border-image: none; color: rgb(119, 119, 119); font-size: 12px; lin=
+e-height: 1; margin: 0px 8px 0px 0px; padding: 10px; }
+#tabs a.youarehere, .tabs a.youarehere, #tabs a:hover, .tabs a:hover { font=
+-weight: 400; border-width: 2px 1px 1px; border-style: solid; border-color:=
+ rgb(255, 153, 0) rgb(224, 224, 224) rgb(255, 255, 255); -moz-border-top-co=
+lors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none=
+; -moz-border-left-colors: none; border-image: none; }
+#tabs a.youarehere, .tabs a.youarehere { color: rgb(34, 34, 34); }
+#sidebar h4 { color: rgb(34, 34, 34); font-size: 18px; font-weight: 400; }
+#sidebar .related, #sidebar .linked { font-size: 13px; }
+#sidebar .related a, #sidebar .linked a { font-size: 13px; }
+.post-tag { color: rgb(62, 109, 142); font-size: 12px; white-space: nowrap;=
+ background: rgb(228, 237, 244) none repeat scroll 0% 0%; border: 1px solid=
+ rgb(228, 237, 244); display: inline-block; margin: 2px 2px 2px 0px; border=
+-radius: 0px; transition: color 0.15s ease 0s, background 0.15s ease 0s, bo=
+rder 0.15s ease 0s; }
+.post-tag:hover { color: rgb(62, 109, 142); background-color: rgb(218, 230,=
+ 239); border: 1px solid rgb(218, 230, 239); }
+.answered-accepted { color: rgb(225, 232, 24); background-color: rgb(117, 1=
+32, 92); }
+#question-header .question-hyperlink { color: rgb(34, 34, 34); }
+.comment-text { font-size: 13px; line-height: 1.3; }
+#footer { background: rgb(47, 47, 47) none repeat scroll 0% 0%; }
+#footer .footerwrap #footer-menu .top-footer-links { text-align: left; }
+#footer .footerwrap #footer-menu .top-footer-links a { margin: 0px 0.8em 0p=
+x 0px; color: rgb(162, 220, 244); }
+#footer .footerwrap #footer-menu #footer-sites { margin: 40px 0px 20px; }
+#footer .footerwrap #footer-menu #footer-sites th { color: rgb(255, 255, 25=
+5); }
+#footer .footerwrap #footer-menu #footer-sites a { color: rgb(187, 187, 187=
+); font-size: 12px; }
+#footer .footerwrap #copyright, #footer .footerwrap #additional-notices, #f=
+ooter .footerwrap #svnrev { clear: both; padding-top: 10px; font-size: 11px=
+; font-weight: 400; text-align: left; color: rgb(119, 119, 119); }
+#footer .footerwrap #copyright a, #footer .footerwrap #additional-notices a=
+, #footer .footerwrap #svnrev a { color: rgb(119, 119, 119); text-decoratio=
+n: underline; }
+#footer .footerwrap #svnrev { padding-top: 0px; }
+input[type=3D"text"]:focus, input[type=3D"email"]:focus, input[type=3D"pass=
+word"]:focus, textarea:focus { outline: 0px none; border: 1px solid rgb(0, =
+119, 204); }
+input[type=3D"text"], textarea:not(.wmd-input), .tag-editor { box-shadow: 0=
+px 1px 2px rgba(0, 0, 0, 0.1) inset; }
+.badgecount { padding-left: 2px; color: rgb(128, 129, 133); }
+
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F
+Content-Location: file:///C:/Users/Mahmood/AppData/Roaming/Mozilla/Firefox/Profiles/17bac1g3.default/ScrapBook/data/20150522214650/favicon.ico
+Content-Transfer-Encoding: base64
+Content-Type: image/x-icon
+
+AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAA
+AAAEAAAAAAAAAAAAAAAAAAAAAAAA////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AIaDgv+Gg4L/hoOC/4aDgv+G
+g4L/hoOC/4aDgv+Gg4L/hoOC/4aDgv////8A////AP///wD///8A////AP///wCGg4L/////AP//
+/wD///8A////AP///wD///8A////AP///wCGg4L/////AP///wD///8A////AP///wD///8AhoOC
+/////wCGg4L/hoOC/4aDgv+Gg4L/hoOC/4aDgv////8AhoOC/////wD///8A////AP///wD///8A
+////AIaDgv////8A////AP///wD///8A////AP///wD///8A////AIaDgv////8A////AP///wD/
+//8A////AP///wCGg4L/////AHCMqP9wjKj/cIyo/3CMqP9wjKj/cIyo/////wCGg4L/////AP//
+/wD///8A////AP///wD///8AhoOC/////wBTlsIAU5bCAFOWwgBTlsIAU5bCM1OWwnP///8AhoOC
+/////wD///8A////AP///wD///8A////AP///wD///8AU5bCBlOWwndTlsLHU5bC+FOWwv1TlsLR
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AFOWwvtTlsLuU5bCu1OWwlc2
+k9cANpPXqjaT19H///8A////AP///wD///8A////AP///wD///8A////AP///wBTlsIGNpPXADaT
+1wA2k9dINpPX8TaT1+40ktpDH4r2tB+K9hL///8A////AP///wD///8A////AP///wD///8A////
+ADaT1wY2k9e7NpPX/TaT16AfivYGH4r23R+K9u4tg/WQLoL1mP///wD///8A////AP///wD///8A
+////AP///wA2k9fuNpPX5zaT1zMfivYGH4r23R+K9uwjiPYXLoL1+S6C9W7///8A////AP///wD/
+//8A////AP///wD///8ANpPXLjaT1wAfivYGH4r22x+K9usfivYSLoL1oC6C9esugvUA////AP//
+/wD///8A////AP///wD///8A////AP///wD///8AH4r2zx+K9usfivYSLoL1DC6C9fwugvVXLoL1
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AB+K9kgfivYMH4r2AC6C9bEugvXh
+LoL1AC6C9QD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wAu
+gvXyLoL1SC6C9QAugvUA////AP//AADgBwAA7/cAAOgXAADv9wAA6BcAAO+XAAD4HwAA+E8AAPsD
+AAD8AQAA/AEAAP0DAAD/AwAA/ycAAP/nAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQAAAAAAAAAAAA
+AAAAAAAAAAAA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8AhISE/4SEhP+EhIT/hISE/4SEhP+EhIT/hISE/4SEhP+EhIT/hISE
+/4SEhP+EhIT/hISE/4SEhP+EhIT/hISE/4SEhP+EhIT/hISE/////wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wCEhIT/hISE/4SEhP+EhIT/hISE/4SEhP+E
+hIT/hISE/4SEhP+EhIT/hISE/4SEhP+EhIT/hISE/4SEhP+EhIT/hISE/4SEhP+EhIT/////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AISEhP+EhIT/////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+hISE/4SEhP////8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8AhISE/4SEhP////8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wCEhIT/hISE/////wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wCEhIT/hISE/////wD///8AhISE/4SEhP+EhIT/hISE/4SEhP+EhIT/
+hISE/4SEhP+EhIT/hISE/4SEhP8AAAAA////AISEhP+EhIT/////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AISEhP+EhIT/////AP///wCEhIT/hISE/4SE
+hP+EhIT/hISE/4SEhP+EhIT/hISE/4SEhP+EhIT/hISE/wAAAAD///8AhISE/4SEhP////8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AhISE/4SEhP/4+vsA
+4ujuAOLo7gDi6O4A4ujuAN3k6wDZ4OgA2eDoANng6ADZ4OgA2eDoANng6ADW3uYAJS84APj6+wCE
+hIT/hISE/////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wCEhIT/hISE/9Xd5QBwjKgAcIyoRnCMqGRwjKhxcIyogHCMqI9wjKidcIyoq3CMqLlwjKjHcIyo
+1HCMqLhogpwA/f7+AISEhP+EhIT/////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AISEhP+EhIT/xtHcAHCMqABwjKjAcIyo/3CMqP9wjKj/cIyo/3CMqP9w
+jKj/cIyo/3CMqP9wjKj/cIyo4EdZawD///8AhISE/4SEhP////8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8AhISE/4SEhP+2xNMAcIyoAHCMqJhwjKjPcIyo
+wHCMqLFwjKijcoymlXSMpIh0jKR6co2mbG+OqGFqj61zXZO4AeXv9gCEhIT/hISE/////wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wCEhIT/hISE/6i5ygDF
+0dwAIiozACQyPQAoP1AALlBmADhlggBblLkGVJbBPFOWwnxTlsK5U5bC9FOWwv9TlsIp3erzAISE
+hP+EhIT/////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AAAAAAAAAAAALztHAAAAAAAuU2sAU5bCClOWwkNTlsKAU5bCwFOWwvhTlsL/U5bC/1OWwv9TlsL/
+U5bC/ViVvVcXOFAAAAAAAAAAAAD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8AAAAAAAAAAAALDhEALVFoAFOWwjpTlsL6U5bC/1OWwv9TlsL/U5bC/1OW
+wvxTlsLIV5W+i2CRs0xHi71TKYzUnyuM0gIJHi4AAAAAAAAAAAAAAAAA////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wAAAAAAAAAAACtNZABTlsIAU5bCD1OWwv1TlsL6
+U5bCxFOWwoRVlsBHZJKwDCNObAA8icJAKYzUwimM1P8pjNT/KYzUWCaCxgALLUsAAAAAAAAAAAD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AAAAAAApS2EAU5bCAFOW
+wgBTlsIAU5bCNVOWwgg+cJEAIT1QABU/XQA1isg4KYzUuymM1P8pjNT/KYzU/ymM1LAti9E0JYvm
+DhdouAAAAAAAAAAAAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+Fyk1AE+PuQBTlsIAU5bCAER7nwAmRVoADBojABRFaQAwi80xKYzUsymM1P8pjNT/KYzU/ymM1Lgs
+jNE2MovXFB+K9MUfivbBH4r2BgcdNAARQH8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wAAAAAAAQIDABIgKgAPGiIABRMcABdQeQAti9AqKYzUrCmM1P8pjNT/KYzU
+/ymM1MAqjNM9HmqmACWK7SIfivbZH4r2/x+K9vsuiudAFE2YACB69AD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AAAAAAAAAAAABhQfABtejgAoitEAKYzUACmM1JQp
+jNT/KYzU/ymM1MgpjNREH2mgABlosQAfivY0H4r26R+K9v8fivbyKIrtR0CB1SggevTQIHr0Nv//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AAAAAAAAAAAACBwsAJX2+
+ACmM1AApjNQAKYzUGSmM1MYpjNRMInWxABNHdQAcfuEAH4r2Sx+K9vUfivb/H4r25iGK9DE2gt4E
+IHr0yyB69P8gevTQ////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wAA
+AAAAAAAAAAAAAAAOMUsAKYzUACmM1AApjNQAJX6/ABE7WgAUWJwAH4r2AB+K9mYfivb9H4r2/x+K
+9tYfivYfG27RACB69HsgevT/IHr0+yB69DL///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AAAAAAAAAAAAAAAAAAAAAAAfaJ4AJ4XKABVGagAKKkoAG3raAB+K9gEfivaE
+H4r2/x+K9v8fivbCH4r2EB133wAgevQsIHr0+SB69P8gevSAIHr0AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8AAAAAAAAAAAAAAAAAAAAAAAUSGwAFERwAElCOAB+J
+9QAfivYAH4r2lx+K9v8fivb/H4r2qR+K9gYefuoAIHr0BSB69M4gevT/IHr00CB69AUgevQA////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAkqSgAfivYAH4r2AB+K9gAfivZLH4r2/R+K9osfivYBH4PwACB69AAgevSAIHr0/yB69Pkg
+evQwIHr0ACB69AD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AAAA
+AAAAAAAAAAAAAAAAAAAAAAAAEEiAAB+K9gAfivYAH4r2AB+K9gAfivYsH4r2AB+G8wAge/QAIHr0
+MCB69PsgevT/IHr0eyB69AAgevQAIHr0AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAXZrYAH4r2AB+K9gAfivYAH4r2AB+K9gAf
+ifUAIHz0ACB69AcgevTQIHr0/yB69MwgevQEIHr0ACB69AAgevQA////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wAAAAAAAAAAAAAAAAAAAAAAAAIDAB6E6gAfivYAH4r2
+AB+K9gAfivYAH4r2ACB+9QAgevQAIHr0fCB69P8gevT5IHr0LCB69AAgevQAIHr0ACB69AD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AAAAAAAAAAAAAAAAAAAAAAAB
+BAcAEUqDAB6E6wAfivYAH4r2AB+K9gAggPUAIHr0ACB69AAgevQTIHr0qCB69HYgevQAIHr0ACB6
+9AAgevQAIHr0AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP////////////////wAAH/8AAB//P/+f/z//n/8wAZ//MAGf/z//n/8wAZ//MAGf/zAAn/8/gJ/
+/+AD///AAf//wEH//+cA///8AH//8BB///BgH//xwB///4If//4EP//+CD///hh///9w////4P//
+/+H////j////////////
+
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F
+Content-Location: https://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=41f6e13ade69
+Content-Transfer-Encoding: base64
+Content-Type: image/png
+
+iVBORw0KGgoAAAANSUhEUgAAAJ4AAACeCAYAAADDhbN7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1
+NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOklu
+c3RhbmNlSUQ9InhtcC5paWQ6QzNGM0UyRTg5NTQ3MTFFNDlENzZCNkZGMjlBQTI4N0QiIHhtcE1N
+OkRvY3VtZW50SUQ9InhtcC5kaWQ6QzNGM0UyRTk5NTQ3MTFFNDlENzZCNkZGMjlBQTI4N0QiPiA8
+eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBODUxNDk2NTk0NEYx
+MUU0OUQ3NkI2RkYyOUFBMjg3RCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBODUxNDk2Njk0
+NEYxMUU0OUQ3NkI2RkYyOUFBMjg3RCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8
+L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pk1W2+YAAAsDSURBVHja7J0LjFTVHcbvCiKK
+sChQH/jA4AukEQ0qFqFgrM9aMahQaqu1Kq22SCpaXUGRl0YpIiaC1kbxSWltMam1+IiAZF2R9a2g
+YkR8RC1BdjGIvNbv855pLpPZmXPm3p25j+9L/jnDzrl3Zi+//c655/zPuTUtLS2eJFVau+gSSAJP
+EniSJPAkgSdJAk8SeJIk8CSBJ0kCTxJ4ksCTJIEnCTxJEniSwJMkgScJPEkSeJLAkySBJwk8KcNq
+H5cvUlNTk6kL/3Vdr4Eo7kWM3nP6mrfa6nPiuny1Ji5fLCvgAbiOKKYg/mhanFcQAwHf1iyBp6a2
+stANQLECMT5w7Y9F3JC1ayHHqwxwu6KYhPgTol2BKtuN661QUyvwooLucBQLEEeXqLoKcQzg26ym
+VopCXyH2t6h3JGKamlo5XpSuNxzFv2wMCjEUrrdUjieFFkBaiGKezd8f6wHUPdN+TQRe5TQO8bFF
+vV6ImQJPisr1NqD4jWX1y+B6Zwg8KSr4nkFxt2X1+wDf3gJPikrXIFZb1OOd8F0CT4rK9TahuAix
+w6L6aLje+QJPigq+ehS3W1afA/j2FXgZ16bbDt4d0SOCU92EsMlK6eb5WSwCL8PQ8Xo9hHgJr48I
+6XrfovglYptF9bPhehcLvOzqz4gRiEMQLwK+wSHhew3FzZbVZwO+gwRe9tyOA8DjAj/aC/Esfv7z
+kKe+FbHcol5nxAOAr0bgZQe6Ecbt8tUB8SjerwvhetvMXa5NVsowxO/TcE2VJFAaukF0NkTHElXv
+Q/xuj2s/2lbO58DJ6KZ3WFT9BtEfwL5nc14lCSTT6XgD8YQFdNSliCdxTJcyP+5OxGKLersjHgSo
+7dTUpldHIVxAOhWxFPAdUEaTS2v6NWKjRfUTPD+bWU1tipvaoZ6fS9fV4bDPEGeh2X2tjCaXzvkX
+i6pbEMcD2NeT2NQKPDv4+qB4CnGww2F0rgsA33/LgO9JFGdaVCV0J5gxQfXx0ibAs9I0b40Oh3H4
+49+A9vIyPpLpU+st6nEdx41qalPqeAHn2wPFY4ifOR7Ksbo6AGx9seF6I1HMt6jKZINBcL0GNbUp
+Bc/A184Me/zB8dC/IS4CfN86wEfwRlpUfd/zh1g2qalNb7O7HTHW83cC2OFwKAHiTEc3h2OuRHxu
+Ue8w46pqatPqeHnudy6KRzx/bM1WHPg9E/B+YOl6Z7GvaHnuk+F6z8vx0u9+HGbhNNb/HA7jAu8G
+QHuiTWWAxDvcv1qemyvUuiTh2gm88PC9ZO5433U4rDviOcB3nmV9NutrLOod6PkzIAIvI/B9iOJH
+iBccDmPzvADwXW3hes0oLvH8Bd+ldDFc72z18WLcx3trRh8mALzcb/zKLRH1+Zitcj9itOOhXHk2
+ljcuJfp7s1BcZXG+LxD9AOw69fFiJkC3n+dnnazG698iOkTgfAT4QsR0x0OvQCwEuJ1K1LvOsknf
+BzFHjhdDxwNos72dx+K4yp/rIB6CA24Le35AxNmHuZ7brqvcpJFzvJ8Xcb3jUXCxkE12yi86Tfvw
+UYEXE/AAHVPIubZ11wJvc5hjKuLhsAACvtM8f4sylzvNtYgzAN87ReDjjqITLM7VCPAGqKmNj25o
+BTqqt+mnrQKgoxBlXyPAswgF12V84nAY/yi4nuPkInUme36CQDHdgxiqpjYmjgeQDvX8TRBtEylX
+mv/oBXDAHeV8JiDq6fmDwP0dDuOeyJcB3nmtuF4/z09ayO+bsstwKW4snuY/dHMRH01wgI5iShQT
+A94EtMMRzn8hgOdTFEMQLilSdOQHAO0kRE2BIRauyc3PTJln7maf1nBKjBwP0PQlQCH/4HJLEp+A
+AzpdPJNgwKET11SpB437bclzPZ6Pmzj24jnNLMdOkuPFQ1w7EXaDazaXnCprBMinOzofEwzG4OX1
+jp/5K7olwK3Ncz2O+41C/LAQdHK8ePXx+EHnmKGT/hGcklNmk+B+TpnGgGikaRp3czhspbnj/cj2
+AOXjxWg4JQ/ASV7pHdlt9CKiDgAudoDvJM9fxeayDx5nJTjW1yjwEgheAEB2Ny4wHfU+EZxyiXHA
+xZbwMVvlP2YYx0ZcV3sKwKsXeAkGrwCAdMAjIjjl88YBGyzg62Gcr1SqFIdzzgd0/1RTmxLwAgBy
+iutCM+zSO4JTLjIO2FACPmarcCeqEUWqXQXoZrt8uMBLCHgFAGQTfEgEp+Rd50QA+GoR+HgRuGFj
+oVSpmYDuatcPFXgJAy8AIGcGmAvHjXkOjOCUbFJvLgEgs1W4/3FuuOsfnr9Gt0XgZQS8AgCyCe4Z
+wSkfp5sCwHdagY9rLZhgwIyVnwC6sp5xJvASDl4AQPbFOAjMvUvC7k3cYuCaXAhAwMdxxrWAbn3Z
+HyDw0gFeAQA5C/GDCAB8xDTBq6P8ngKvCuAtvXsE50U52s+1EG8MueLxHW0AIJ87xs0S+fDjbiFP
+xymwhxFTowJQ4FUYPEDHrcKCzw5rQiwzEHKQtxEgbm0DANkEdw15umUAb7DASyZ4nDx/rEgVzgDU
+GxiZ4dEAEDdFACChy+2XXFvmaYa5TL0JvHiBN9f0wWxF92s0bkhXXAYQmyIAkGNvLo8BXQLohqqP
+l1zw2Lc7MsQp2B9807gh4wWA+EUZAHY3/T82w50sDhkE8OoFXgLBA3Sc+/yyDb7mu4E+Ih1xTRkA
+cl1sa3sqLwJ0p0f5hQVeZcHj1hB/r8DXXmtA/B5GgLjKAsD9zA3ImAIAHgfwVgi85ILH/UPGVuHX
+WJdzQ1NyCGd7CQA5Pcb1FUylHx71FxJ4lQWPz5zgc8I6VPnXajZ3zrkblpcB4pY8ALmckfPAcwDe
+6wIv+TcXbMYGIpjl+2PPz3XrVOVfk0M4ywMg1kcxhCPwYgReARCZ5nSs5y8zHGxiryr/2myG2ac7
+DwB+kiawEgNepQEFiEw56mvccLApq/FAYrpgbbmzKAIvBc4IGA8NQMgmuncFfqXnAN0paYLKRu09
+6f8CAJyYZ9xvQOwZAJHlUW3wsUuyeK1j43hTpt5S8ovcOLGuqrlTAHFv00fM3bAc47lth1FIwwD8
+4kJvTJ4yveQ1mTjh+kQ+v1aO5+aITMhcaIIgcg52kHFDAsm961wWaPOZFw1ZvJYCLxyIX3v+KrJF
+BkQO4QwINM10xmJDOMtxjs0CTwoLIiFaZoIgtjPN8RATdMfuwdY7q9cqVeDNnzGOOwHc5vlPTmwO
+lIymwOud3h81flZzG4GYG6djzASI7I/1DdywPCXw0qH9ET8tA1jPgLmxEJjmvaZWgObrDbnXgHhr
+ERB5s/C2iblZbh3SBl6Yp9rUeuVnDAch3pwHZtBt8532LoGXDtXG4Dt0NNGjRD3Cl1nw0rYxY5cE
+fdeNWW5qBV711CzwBJ7AE3gCT+AlTxwn+0bg6a62oho1fhYX0IyZP2Nce+N+XcydLsvOgZ91znuv
+2Pu6uRB41gDyGWTrTYQSIO7cCpi5cb/W3u+a9/P89R8bBJ5UDOKNUbgTAN4tD84mgSdVAmCmQDHW
+6Wro0fCSHC+8bDJ246RqZ1TL8SSBJ0kCTxJ4kiTwJIEnSQJPEniSVEypGkDO8oCsHE+SBJ4k8CRJ
+4EkCTxJ4kiTwpFQrUeN4SUv0lOR4ksCTJIEnCTxJ4EmSwJMEniQJPCnJqknzEwIlOZ4kCTxJ4EkC
+T5IEniTwJEngSQJPkgSeJPAkSeBJAk+SBJ4k8CSBJ0kCTxJ4kiTwJIEnSQJPEniSJPAkgSdJAk8S
+eFLm9J0AAwAwnxV1hvaP3gAAAABJRU5ErkJggg==
+
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F
+Content-Location: file:///C:/Users/Mahmood/AppData/Roaming/Mozilla/Firefox/Profiles/17bac1g3.default/ScrapBook/data/20150522214650/sprites.svg
+Content-Transfer-Encoding: base64
+Content-Type: image/svg+xml
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBB
+ZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9u
+OiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBT
+VkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzEx
+LmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3
+LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxp
+bmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMjQwcHgiIGhlaWdodD0iNTAwcHgiIHZpZXdC
+b3g9IjAgMCAyNDAgNTAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNDAgNTAwIiB4bWw6
+c3BhY2U9InByZXNlcnZlIj4NCjxnIGlkPSJMYXllcl8yXzFfIj4NCjwvZz4NCjxnPg0KCTxwb2x5
+Z29uIGZpbGw9IiM0NEI0NDkiIHBvaW50cz0iNDgsMjgwLjggNDgsMjg4LjQgNTYuNSwyOTYgNzMs
+MjgxLjIgNzMsMjczIDU2LjUsMjg3LjkgCSIvPg0KPC9nPg0KPGc+DQoJPHBvbHlnb24gZmlsbD0i
+IzQ0QjQ0OSIgcG9pbnRzPSIyMi40LDMyNCAyMi40LDMyNy41IDI2LjUsMzMxLjEgMzMuNCwzMjQu
+OSAzMy40LDMyMS4xIDI2LjUsMzI3LjMgCSIvPg0KPC9nPg0KPGc+DQoJPHBvbHlnb24gZmlsbD0i
+I0MwQzBDMCIgcG9pbnRzPSI4LDI4MC44IDgsMjg4LjQgMTYuNiwyOTYgMzMsMjgxLjIgMzMsMjcz
+IDE2LjYsMjg3LjkgCSIvPg0KPC9nPg0KPHBvbHlnb24gZmlsbD0iI0ZFN0ExNiIgcG9pbnRzPSI0
+NSwxOTEgNzQsMTkxIDU5LjYsMTc2ICIvPg0KPHBvbHlnb24gZmlsbD0iIzgxODE4NSIgcG9pbnRz
+PSI1LDE5MSAzNCwxOTEgMTkuNSwxNzYgIi8+DQo8cG9seWdvbiBmaWxsPSIjRkU3QTE2IiBwb2lu
+dHM9IjU5LjYsMjQzIDc0LDIyOCA0NSwyMjggIi8+DQo8cG9seWdvbiBmaWxsPSIjRkU3QTE2IiBw
+b2ludHM9IjYuNSwzMjIuMyAwLDMyOS4zIDEzLDMyOS4zICIvPg0KPHBvbHlnb24gZmlsbD0iIzgx
+ODE4NSIgcG9pbnRzPSI3LjIsMzg2LjUgMC4yLDM4MCAwLjIsMzkzICIvPg0KPHBvbHlnb24gZmls
+bD0iIzgxODE4NSIgcG9pbnRzPSI1NC4xLDQ3My42IDQ3LjEsNDY3LjIgNDcuMSw0ODAuMiAiLz4N
+Cjxwb2x5Z29uIGZpbGw9IiM4MTgxODUiIHBvaW50cz0iNi41LDQ3My43IDEzLjUsNDgwLjIgMTMu
+NSw0NjcuMiAiLz4NCjxwb2x5Z29uIGZpbGw9IiM4MTgxODUiIHBvaW50cz0iMjYuOCwzOTAgMzMu
+MiwzODMgMjAuMiwzODMgIi8+DQo8cG9seWdvbiBmaWxsPSIjQjhCOEI4IiBwb2ludHM9IjYuNSwz
+NDEuMyAwLDM0OC4zIDEzLDM0OC4zICIvPg0KPHBvbHlnb24gZmlsbD0iIzgxODE4NSIgcG9pbnRz
+PSIxOS41LDI0MyAzNCwyMjggNSwyMjggIi8+DQo8Zz4NCgk8cG9seWdvbiBmaWxsPSIjRkZEODNE
+IiBwb2ludHM9IjU5LjYsMTM3LjggNTIuOSwxNDIuNyA1NS4zLDEzNC42IDQ4LjcsMTI5LjggNTcs
+MTI5LjggNTkuNiwxMjEuNyA2Mi4yLDEyOS44IDcwLjUsMTI5LjggDQoJCTYzLjksMTM0LjYgNjYu
+MywxNDIuNyAJIi8+DQoJPHBhdGggZmlsbD0iI0VBQzMyOCIgZD0iTTU5LjYsMTIzLjRsMiw2LjFs
+MC4yLDAuN2gwLjdoNi4zbC01LjMsMy44bC0wLjYsMC40bDAuMiwwLjdsMiw2LjFsLTUuMy0zLjhs
+LTAuNi0wLjRsLTAuNiwwLjRsLTUuMywzLjgNCgkJbDItNi4xbDAuMi0wLjdsLTAuNi0wLjRsLTUu
+My0zLjhoNi4zaDAuN2wwLjItMC43TDU5LjYsMTIzLjQgTTU5LjYsMTIwbC0zLDkuMUg0N2w3Ljcs
+NS43bC0zLDkuMWw3LjctNS43bDcuNyw1LjdsLTMtOS4xbDcuNy01LjcNCgkJaC05LjZMNTkuNiwx
+MjBMNTkuNiwxMjB6Ii8+DQo8L2c+DQo8Zz4NCgk8cG9seWdvbiBmaWxsPSIjQzBDMEMwIiBwb2lu
+dHM9IjE5LjUsMTIwIDIyLjQsMTI5LjIgMzIsMTI5LjIgMjQuMywxMzQuOCAyNy4zLDE0NCAxOS41
+LDEzOC4zIDExLjcsMTQ0IDE0LjcsMTM0LjggNywxMjkuMiANCgkJMTYuNiwxMjkuMiAJIi8+DQo8
+L2c+DQo8Y2lyY2xlIGZpbGw9IiNDQzk5NjYiIGN4PSI2NSIgY3k9IjQwNSIgcj0iMyIvPg0KPGNp
+cmNsZSBmaWxsPSIjQzVDNUM1IiBjeD0iODUiIGN5PSI0MDUiIHI9IjMiLz4NCjxjaXJjbGUgZmls
+bD0iI0ZGQ0MwMCIgY3g9IjEwNSIgY3k9IjQwNSIgcj0iMyIvPg0KPHJlY3QgeD0iNDcuMiIgeT0i
+MzY3IiBmaWxsPSIjOUU5RTlFIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIi8+DQo8cmVjdCB4PSI1MC4y
+IiB5PSIzNzAiIGZpbGw9IiM5RTlFOUUiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz4NCjxyZWN0IHg9
+IjU2LjIiIHk9IjM3MCIgZmlsbD0iIzlFOUU5RSIgd2lkdGg9IjIiIGhlaWdodD0iMiIvPg0KPHJl
+Y3QgeD0iNjIuMiIgeT0iMzcwIiBmaWxsPSIjOUU5RTlFIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIi8+
+DQo8cmVjdCB4PSI2OC4yIiB5PSIzNzAiIGZpbGw9IiM5RTlFOUUiIHdpZHRoPSIyIiBoZWlnaHQ9
+IjIiLz4NCjxyZWN0IHg9IjUzLjMiIHk9IjM2NyIgZmlsbD0iIzlFOUU5RSIgd2lkdGg9IjIiIGhl
+aWdodD0iMiIvPg0KPHJlY3QgeD0iNTkuMyIgeT0iMzY3IiBmaWxsPSIjOUU5RTlFIiB3aWR0aD0i
+MiIgaGVpZ2h0PSIyIi8+DQo8cmVjdCB4PSI2NS4zIiB5PSIzNjciIGZpbGw9IiM5RTlFOUUiIHdp
+ZHRoPSIyIiBoZWlnaHQ9IjIiLz4NCjxyZWN0IHg9IjcxLjQiIHk9IjM2NyIgZmlsbD0iIzlFOUU5
+RSIgd2lkdGg9IjIiIGhlaWdodD0iMiIvPg0KPGc+DQoJPHBhdGggZmlsbD0iI0M1QzVDNSIgZD0i
+TTAuMiw0MDB2MzFoMy40YzAuMy01LjUsMy43LTEwLjEsOC4zLTExLjhWNDE4Yy0xLjgtMS4yLTMt
+My4zLTMtNS42YzAtMy43LDMtNi43LDYuOC02LjdzNi44LDMsNi44LDYuNw0KCQljMCwyLjMtMS4y
+LDQuNC0zLDUuNnYxLjJjNC42LDEuNyw4LDYuMyw4LjMsMTEuOGgzLjR2LTMxSDAuMnoiLz4NCgk8
+cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMy43LDQzMUgyOGMtMC4zLTUuNS0zLjctMTAuMS04LjMt
+MTEuOFY0MThjMS44LTEuMiwzLTMuMywzLTUuNmMwLTMuNy0zLTYuNy02LjgtNi43cy02LjgsMy02
+LjgsNi43DQoJCWMwLDIuMywxLjIsNC40LDMsNS42djEuMkM3LjUsNDIwLjksNCw0MjUuNSwzLjcs
+NDMxeiIvPg0KPC9nPg0KPGc+DQoJPHJlY3QgeD0iNjAuMyIgeT0iMzQwIiBmaWxsPSIjQjhCOEI4
+IiB3aWR0aD0iMS45IiBoZWlnaHQ9IjE0Ii8+DQoJPHJlY3QgeD0iNjMuMiIgeT0iMzQxIiBmaWxs
+PSIjQ0NDQ0NDIiB3aWR0aD0iMTAuMSIgaGVpZ2h0PSI4Ii8+DQo8L2c+DQo8Zz4NCgk8cmVjdCB4
+PSI2MC4zIiB5PSIzMjAuMSIgZmlsbD0iI0QzNUY1RiIgd2lkdGg9IjEuOSIgaGVpZ2h0PSIxNCIv
+Pg0KCTxyZWN0IHg9IjYzLjIiIHk9IjMyMS4xIiBmaWxsPSIjRjg5MzkzIiB3aWR0aD0iMTAuMSIg
+aGVpZ2h0PSI4Ii8+DQo8L2c+DQo8Zz4NCgk8cmVjdCB4PSI4MC4zIiB5PSIzMjAuMSIgZmlsbD0i
+I0ZFNjUwMiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjE0Ii8+DQoJPHBhdGggZmlsbD0iI0ZGRkZGRiIg
+ZD0iTTgzLjUsMzI5LjVjLTAuOCwwLTEuNCwwLjYtMS40LDEuNHMwLjYsMS40LDEuNCwxLjRzMS40
+LTAuNiwxLjQtMS40Qzg0LjksMzMwLjIsODQuMywzMjkuNSw4My41LDMyOS41eg0KCQkgTTgyLjEs
+MzI1LjV2MmMxLjMsMCwyLjUsMC41LDMuNCwxLjRzMS40LDIuMSwxLjQsMy40aDJDODksMzI4LjUs
+ODUuOSwzMjUuNSw4Mi4xLDMyNS41eiBNODIuMSwzMjEuOXYyYzQuNiwwLDguNCwzLjgsOC40LDgu
+NGgyDQoJCUM5Mi41LDMyNi42LDg3LjgsMzIxLjksODIuMSwzMjEuOXoiLz4NCjwvZz4NCjxnPg0K
+CTxwb2x5Z29uIGZpbGw9IiM3QTdBN0EiIHBvaW50cz0iMjIuNiwzNDcuMSAyMS45LDM1MC4zIDI1
+LjEsMzQ5LjYgCSIvPg0KCQ0KCQk8cmVjdCB4PSIyNC42IiB5PSIzNDMuMyIgdHJhbnNmb3JtPSJt
+YXRyaXgoLTAuNzA3MSAtMC43MDcxIDAuNzA3MSAtMC43MDcxIC0xOTkuNTEwMiA2MDkuMDM2OCki
+IGZpbGw9IiM3QTdBN0EiIHdpZHRoPSIzLjUiIGhlaWdodD0iNS4xIi8+DQoJPHBhdGggZmlsbD0i
+IzdBN0E3QSIgZD0iTTI5LjEsMzQxLjNjLTAuNCwwLTAuOCwwLjEtMS4xLDAuNGwtMC43LDAuN2wy
+LjUsMi41bDAuNy0wLjdjMC4yLTAuMywwLjQtMC43LDAuNC0xLjENCgkJQzMwLjksMzQyLjEsMzAu
+MSwzNDEuMywyOS4xLDM0MS4zeiIvPg0KPC9nPg0KPGc+DQoJPGNpcmNsZSBmaWxsPSIjQzAzNDMz
+IiBjeD0iMTA3IiBjeT0iNDUxLjgiIHI9IjYuNSIvPg0KCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9
+Ik0xMTAuMiw0NTMuN0wxMTAuMiw0NTMuN2wtMS45LTEuOWwxLjktMS45bDAsMGMwLDAsMCwwLDAt
+MC4xczAtMC4yLDAtMC4ybC0wLjktMC45Yy0wLjEtMC4xLTAuMS0wLjEtMC4yLDANCgkJSDEwOWww
+LDBsLTEuOSwxLjlsLTEuOS0xLjlsMCwwYzAsMCwwLDAtMC4xLDBzLTAuMiwwLTAuMiwwbC0wLjks
+MC45Yy0wLjEsMC4xLTAuMSwwLjEsMCwwLjJ2MC4xbDAsMGwxLjksMS45bC0xLjksMS45bDAsMA0K
+CQljMCwwLDAsMCwwLDAuMXMwLDAuMiwwLDAuMmwwLjksMC45YzAuMSwwLjEsMC4xLDAuMSwwLjIs
+MGgwLjFsMCwwbDEuOS0xLjlsMS45LDEuOWwwLDBjMCwwLDAsMCwwLjEsMHMwLjIsMCwwLjIsMGww
+LjktMC45DQoJCUMxMTAuMiw0NTQsMTEwLjIsNDUzLjksMTEwLjIsNDUzLjdDMTEwLjIsNDUzLjgs
+MTEwLjIsNDUzLjgsMTEwLjIsNDUzLjd6Ii8+DQo8L2c+DQo8Zz4NCgk8Y2lyY2xlIGZpbGw9IiND
+MDM0MzMiIGN4PSI0Ny4yIiBjeT0iMzQ2LjkiIHI9IjYuNSIvPg0KCTxwYXRoIGZpbGw9IiNGRkZG
+RkYiIGQ9Ik01MC40LDM0OC44TDUwLjQsMzQ4LjhsLTEuOS0xLjlsMS45LTEuOWwwLDBjMCwwLDAs
+MCwwLTAuMXMwLTAuMiwwLTAuMmwtMC45LTAuOWMtMC4xLTAuMS0wLjEtMC4xLTAuMiwwDQoJCWgt
+MC4xbDAsMGwtMS45LDEuOWwtMS45LTEuOWwwLDBjMCwwLDAsMC0wLjEsMHMtMC4yLDAtMC4yLDBs
+LTAuOSwwLjljLTAuMSwwLjEtMC4xLDAuMSwwLDAuMnYwLjFsMCwwbDEuOSwxLjlsLTEuOSwxLjls
+MCwwDQoJCWMwLDAsMCwwLDAsMC4xczAsMC4yLDAsMC4ybDAuOSwwLjljMC4xLDAuMSwwLjEsMC4x
+LDAuMiwwaDAuMWwwLDBsMS45LTEuOWwxLjksMS45bDAsMGMwLDAsMCwwLDAuMSwwczAuMiwwLDAu
+MiwwbDAuOS0wLjkNCgkJQzUwLjQsMzQ5LDUwLjQsMzQ4LjksNTAuNCwzNDguOEM1MC40LDM0OC45
+LDUwLjQsMzQ4LjgsNTAuNCwzNDguOHoiLz4NCjwvZz4NCjxnPg0KCTxjaXJjbGUgZmlsbD0iI0ND
+Q0NDQyIgY3g9IjQ3LjIiIGN5PSIzMjYuMSIgcj0iNi41Ii8+DQoJPHBhdGggZmlsbD0iI0ZGRkZG
+RiIgZD0iTTUwLjQsMzI4LjFMNTAuNCwzMjguMWwtMS45LTEuOWwxLjktMS45bDAsMGMwLDAsMCww
+LDAtMC4xczAtMC4yLDAtMC4ybC0wLjktMC45Yy0wLjEtMC4xLTAuMS0wLjEtMC4yLDANCgkJaC0w
+LjFsMCwwbC0yLDEuOGwtMS45LTEuOWwwLDBjMCwwLDAsMC0wLjEsMHMtMC4yLDAtMC4yLDBsLTAu
+OSwwLjljLTAuMSwwLjEtMC4xLDAuMSwwLDAuMnYwLjFsMCwwbDEuOSwxLjlsLTEuOSwxLjlsMCww
+DQoJCWMwLDAsMCwwLDAsMC4xczAsMC4yLDAsMC4ybDAuOSwwLjljMC4xLDAuMSwwLjEsMC4xLDAu
+MiwwaDAuMWwwLDBsMS45LTEuOWwxLjksMS45bDAsMGMwLDAsMCwwLDAuMSwwczAuMiwwLDAuMiww
+bDAuOS0wLjkNCgkJQzUwLjQsMzI4LjMsNTAuNCwzMjguMiw1MC40LDMyOC4xTDUwLjQsMzI4LjF6
+Ii8+DQo8L2c+DQo8Zz4NCgk8cGF0aCBkPSJNNDEuOCw0NWMtMi4zLDAtNC4xLTAuNS01LjYtMmwx
+LjMtMS4zYzEuMSwxLjEsMi42LDEuNiw0LjMsMS42YzIuMywwLDMuNy0wLjgsMy43LTIuNGMwLTEu
+Mi0wLjctMS45LTIuMy0ybC0yLjMtMC4yDQoJCWMtMi43LTAuMi00LjEtMS40LTQuMS0zLjdjMC0y
+LjUsMi4xLTQsNS00YzIsMCwzLjcsMC41LDQuOSwxLjVsLTEuMywxLjNjLTEtMC44LTIuMi0xLjEt
+My43LTEuMWMtMiwwLTMuMSwwLjktMy4xLDIuMw0KCQljMCwxLjIsMC43LDEuOSwyLjQsMmwyLjIs
+MC4yYzIuNCwwLjIsNCwxLjEsNCwzLjdDNDcuNCw0My41LDQ1LjEsNDUsNDEuOCw0NXoiLz4NCgk8
+cGF0aCBkPSJNNTMuNSw0NC44Yy0yLjMsMC0zLjUtMS42LTMuNS0zLjd2LTguNGgtMS43di0xLjVI
+NTB2LTQuM2gydjQuM2gyLjl2MS41SDUydjguNGMwLDEuMywwLjYsMiwxLjksMkg1NXYxLjdINTMu
+NXoiLz4NCgk8cGF0aCBkPSJNNjUuMyw0NC44di0xLjNjLTEuMSwxLjEtMi4xLDEuNS00LDEuNXMt
+My0wLjQtMy45LTEuM2MtMC43LTAuNy0xLTEuNy0xLTIuOGMwLTIuNCwxLjctNCw0LjctNGg0LjF2
+LTEuM2MwLTItMS0zLTMuNS0zDQoJCWMtMS44LDAtMi42LDAuNC0zLjUsMS42TDU3LDMzYzEuMi0x
+LjYsMi42LTIsNC44LTJjMy43LDAsNS41LDEuNiw1LjUsNC42djkuM0w2NS4zLDQ0LjhMNjUuMyw0
+NC44eiBNNjUuMywzOC41aC0zLjgNCgkJYy0yLjEsMC0zLjEsMC44LTMuMSwyLjRjMCwxLjYsMSwy
+LjMsMy4xLDIuM2MxLjIsMCwyLjItMC4xLDMuMS0wLjljMC41LTAuNCwwLjctMS4yLDAuNy0yLjRW
+MzguNXoiLz4NCgk8cGF0aCBkPSJNNzUuMSw0NWMtMy41LDAtNi4xLTIuMy02LjEtN3MyLjYtNyw2
+LjEtN2MxLjksMCwzLjEsMC41LDQuNSwybC0xLjQsMS4zYy0xLTEuMS0xLjgtMS41LTMuMS0xLjVj
+LTEuMywwLTIuNSwwLjUtMy4yLDEuNg0KCQljLTAuNiwwLjktMC45LDItMC45LDMuN3MwLjMsMi44
+LDAuOSwzLjdjMC43LDEsMS44LDEuNiwzLjIsMS42YzEuMywwLDIuMS0wLjQsMy4xLTEuNmwxLjQs
+MS4zQzc4LjIsNDQuNSw3Nyw0NSw3NS4xLDQ1eiIvPg0KCTxwYXRoIGQ9Ik05MC42LDQ0LjhsLTQu
+My03bC0yLjcsMy4xdjRoLTJWMjVoMnYxMy4zbDYuMi03LjFoMi41bC00LjcsNS4ybDUuNSw4LjVM
+OTAuNiw0NC44TDkwLjYsNDQuOHoiLz4NCgk8cGF0aCBkPSJNMTAzLjgsNDMuM2MtMC44LDAuOS0y
+LjIsMS43LTQuMywxLjdjLTIsMC0zLjQtMC44LTQuMy0xLjdjLTEuMi0xLjMtMS42LTIuOS0xLjYt
+NS40czAuMy00LDEuNi01LjMNCgkJYzAuOC0wLjksMi4yLTEuNyw0LjMtMS43YzIsMCwzLjQsMC44
+LDQuMywxLjdjMS4yLDEuMywxLjYsMi45LDEuNiw1LjNDMTA1LjQsNDAuNSwxMDUsNDIsMTAzLjgs
+NDMuM3ogTTEwMS4xLDM0LjYNCgkJYy0wLjQtMC40LTAuOS0wLjYtMS42LTAuNnMtMS4yLDAuMi0x
+LjYsMC42Yy0wLjcsMC43LTAuOCwxLjktMC44LDMuM2MwLDEuNCwwLjEsMi42LDAuOCwzLjRjMC40
+LDAuNCwwLjksMC42LDEuNiwwLjYNCgkJczEuMi0wLjIsMS42LTAuNmMwLjctMC43LDAuOC0xLjks
+MC44LTMuNEMxMDEuOSwzNi41LDEwMS45LDM1LjMsMTAxLjEsMzQuNnoiLz4NCgk8cGF0aCBkPSJN
+MTEzLjEsNDQuOGgtMi43bC01LjEtMTMuN2gzLjZsMi44LDguNWwyLjgtOC41aDMuNkwxMTMuMSw0
+NC44eiIvPg0KCTxwYXRoIGQ9Ik0xMjEuNCwzOWMwLDEuOCwxLjEsMy4xLDMsMy4xYzEuNSwwLDIu
+Mi0wLjQsMy4xLTEuM2wyLjEsMmMtMS40LDEuNC0yLjcsMi4yLTUuMiwyLjJjLTMuMiwwLTYuNC0x
+LjUtNi40LTcuMQ0KCQljMC00LjUsMi40LTcsNi03YzMuOCwwLDYsMi44LDYsNi42VjM5SDEyMS40
+eiBNMTI2LjMsMzUuMmMtMC40LTAuOC0xLjEtMS40LTIuMy0xLjRjLTEuMiwwLTEuOSwwLjYtMi4z
+LDEuNA0KCQljLTAuMiwwLjUtMC4zLDAuOS0wLjMsMS41aDUuMkMxMjYuNiwzNi4xLDEyNi41LDM1
+LjcsMTI2LjMsMzUuMnoiLz4NCgk8cGF0aCBkPSJNMTM5LjIsMzQuOGMtMC41LTAuNS0xLTAuOC0x
+LjgtMC44Yy0xLjEsMC0yLjIsMC44LTIuMiwyLjV2OC4zaC0zLjRWMzEuMWgzLjR2MS4zYzAuNy0w
+LjgsMi0xLjUsMy41LTEuNQ0KCQljMS4zLDAsMi4zLDAuMywzLjIsMS4zTDEzOS4yLDM0Ljh6Ii8+
+DQoJPHBhdGggZD0iTTE0Ny41LDMzLjd2MTEuMWgtMy40VjMzLjdoLTEuNHYtMi42aDEuNHYtMS43
+YzAtMiwxLjItMy45LDQtMy45aDJ2Mi45aC0xLjNjLTAuOCwwLTEuMiwwLjQtMS4yLDEuMnYxLjVo
+Mi41djIuNkgxNDcuNXoNCgkJIE0xNTUuNiw0NC44Yy0yLjgsMC00LTItNC0zLjlWMjUuNGgzLjR2
+MTUuMmMwLDAuOCwwLjMsMS4yLDEuMiwxLjJoMS4zdjIuOUwxNTUuNiw0NC44eiIvPg0KCTxwYXRo
+IGQ9Ik0xNjguMiw0My4zYy0wLjgsMC45LTIuMiwxLjctNC4zLDEuN2MtMiwwLTMuNC0wLjgtNC4z
+LTEuN2MtMS4yLTEuMy0xLjYtMi45LTEuNi01LjRzMC4zLTQsMS42LTUuMw0KCQljMC44LTAuOSwy
+LjItMS43LDQuMy0xLjdjMiwwLDMuNCwwLjgsNC4zLDEuN2MxLjIsMS4zLDEuNiwyLjksMS42LDUu
+M0MxNjkuNyw0MC41LDE2OS40LDQyLDE2OC4yLDQzLjN6IE0xNjUuNSwzNC42DQoJCWMtMC40LTAu
+NC0wLjktMC42LTEuNi0wLjZzLTEuMiwwLjItMS42LDAuNmMtMC43LDAuNy0wLjgsMS45LTAuOCwz
+LjNjMCwxLjQsMC4xLDIuNiwwLjgsMy40YzAuNCwwLjQsMC45LDAuNiwxLjYsMC42DQoJCXMxLjIt
+MC4yLDEuNi0wLjZjMC43LTAuNywwLjgtMS45LDAuOC0zLjRDMTY2LjMsMzYuNSwxNjYuMiwzNS4z
+LDE2NS41LDM0LjZ6Ii8+DQoJPHBhdGggZD0iTTE4NS4xLDQ0LjhoLTIuOGwtMi45LTguNmwtMi45
+LDguNmgtMi44bC00LjItMTMuN2gzLjZsMi4yLDguNWwyLjgtOC41aDIuNWwyLjgsOC41bDIuMi04
+LjVoMy42TDE4NS4xLDQ0Ljh6Ii8+DQo8L2c+DQo8cmVjdCB4PSI2IiB5PSIzOC45IiBmaWxsPSIj
+ODE4MTg1IiB3aWR0aD0iMTciIGhlaWdodD0iMyIvPg0KPHBvbHlnb24gZmlsbD0iIzgxODE4NSIg
+cG9pbnRzPSIyNiwzMC45IDI2LDQ0LjkgMyw0NC45IDMsMzAuOSAwLDMwLjkgMCw0Ny45IDAsNDcu
+OSAyOSw0Ny45IDI5LDMwLjkgIi8+DQo8cmVjdCB4PSI2LjIiIHk9IjMzLjUiIHRyYW5zZm9ybT0i
+bWF0cml4KDAuOTk1OCA5LjE5MjU0M2UtMDIgLTkuMTkyNTQzZS0wMiAwLjk5NTggMy4yNzkzIC0x
+LjE5MykiIGZpbGw9IiNBNjhBNkUiIHdpZHRoPSIxNi44IiBoZWlnaHQ9IjMiLz4NCjxwb2x5Z29u
+IGZpbGw9IiNCRjk0NTIiIHBvaW50cz0iMjMuMiwzMi45IDYuOSwyOC45IDcuNiwyNS45IDIzLjks
+MzAgIi8+DQo8cG9seWdvbiBmaWxsPSIjRDI4QjI5IiBwb2ludHM9IjI0LjMsMjguMiA5LjYsMjAu
+NyAxMSwxOC4yIDI1LjYsMjUuNyAiLz4NCjxwb2x5Z29uIGZpbGw9IiNGNjhBMUYiIHBvaW50cz0i
+MjYuNywyNC43IDEzLjcsMTMuOSAxNS43LDExLjcgMjguNywyMi40ICIvPg0KPHBvbHlnb24gZmls
+bD0iI0Y0NzkyMCIgcG9pbnRzPSIyOS42LDIxIDIwLjEsNy42IDIyLjUsNiAzMi4xLDE5LjQgIi8+
+DQo8L3N2Zz4NCg==
+
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F
+Content-Location: file:///C:/Users/Mahmood/AppData/Roaming/Mozilla/Firefox/Profiles/17bac1g3.default/ScrapBook/data/20150522214650/c588cdbb9603f01a610597f17633bc6d
+Content-Transfer-Encoding: base64
+Content-Type: application/octet-stream
+
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2NjIpLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwK
+DAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAIAAg
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
+/LhsvI5CFBngelfU/wAJP2BvHHxQ8EWniXTWsRDcoZI4ZrgI+B25GATx/UivBdA8LwXfi/TdMmul
+e2nvIYJJITyFZwrEZHoT1Ffsj8GtA1bwH4K0m2tJbW40q3hQSiaElmYgAgEYxlsnOe+MV5mLxLpK
+PJ1Pay7BLEylzrRfmfmn8Vf2GvH/AMNvDjaxqdtZxRqyqViulcruOOcfWvFLzxQ2leHbzwmfDmim
+dJWD6o8DPehlY52yhgMdvu9K/WD9quHVfEnw416Z2t7XS4VckwIfOzGWBBzkHOFIOfXI71+a3xM8
+AeHtE8N6Pr2leIBqeqajI32qxaaEzWp2nIdVIb73Q7QMY7mpwtSWKT9or2d9CcwwscHUSi7Jrr1f
+kWPC/wAPreW3gvr2JjO3zqodgMEcE9we9fpZ+zd8StP8QfCPTdKvNQS21OwY2zm8kOJmXBU7mIyS
+CvOc5r4fhVDwRgjpXs3wH+Iun+Cjd2Wu6VJe6BdTo0t1HD5gtpCNqkjGCCAeOpwcA4xW+Moe1pe6
+tUTl2J+rVrt2TPT/ANqvx5YW/wAOLzw1b3y3t7qdwPNa2clUUfM+WySegB5/i9q+ENV+G9jfJM8A
+eGcjdvLbgT+OcZ9q+k/2gfEb+KNctDb6O+kaAkJ/swtD5YuImIJlHGPmwOO3APNeQySKPkxwKvC4
+f2NO0lq9SMfiXiazknotEf/Z
+
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F
+Content-Location: file:///C:/Users/Mahmood/AppData/Roaming/Mozilla/Firefox/Profiles/17bac1g3.default/ScrapBook/data/20150522214650/d3149cf105b708746f1c4eb0a63a5c24
+Content-Transfer-Encoding: base64
+Content-Type: application/octet-stream
+
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACXUlEQVRYhb1XP08bMRx9DgEpBAbu
+QPxR1YEm6YJEh4qlO6gVGeAjdOmH6Hdg6dJP0LVLU4mVkU6VYElIBqQM0OaatOJCSHLugGxin3/2
+NXf0TYmd3O+d/XvPz+zruzqHBa8/lm3TCrqtPm5/j7H2YkGONY8D1D93yP/kEz89ARq1AIPeCKvb
+RTDGAADP9jwAIEkkJtBt9dGoBYjuOEpVD35lPjb/8zwEAFx9v1FWwUbCSUAUFg8HgNOjNrxyQSHS
+qAVy/uJLR1kFG4nc5JfN3SVUDnzlB8MwwjCMYsSG/bEyHt09tFI04oChs2YLM7ExuQKbu0t4frgs
+JwTTla0iVraK+HF2c78FwwilfT/2hqWqh9Oj9v3nNz5Y7mEOAC5Pejj/dG0moBc3LZcgwjlXCgv4
+lXl45QIGf0ZYf7mgzFHFASCvF9dJ6DAVFyhVPQy6Y+XtbcUBgHHOrT6QJUw+kakPuGDyCUnApfO0
+oHyC/WqGXNc5gJjO0+Lbh7assfhkDq/ePwVjDLmkOk8LyidkE7p0nhadeih9YvvtGjZ2FgFM9IBL
+52lB+URMBY9RXMDkE4oPmHT62FBWwKTT/0bAdp5nAcpn5BZQOs2qMOUzMg8kOc+ngctn5ApQOs0K
+lM/IHrCd51mA8hlFBSadZg29r5jtXqCHlWl8onkckOHm8qRH5wFTUprGJ0Ss00mIpGQkYCru8glb
+ntBJTMa0GAEqI1K533Vv0EnMFmaUjBgjkC/m9CEAhE+w5PeGSRJKPX2A2jMq9ye9N1Aw9oCJhMsn
+ps0TpApMJJL4xL+eH38BO0nN51vTHo0AAAAASUVORK5CYII=
+
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F
+Content-Location: file:///C:/Users/Mahmood/AppData/Roaming/Mozilla/Firefox/Profiles/17bac1g3.default/ScrapBook/data/20150522214650/333b8a55b9164038b686c9751006674d
+Content-Transfer-Encoding: base64
+Content-Type: application/octet-stream
+
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACuklEQVRYhaVXPWhTURT+3g8vGR4l
+SsVCFye1Q81QageHgjrq4GYmHeJocDEiWHnYTRxCHZOCuNRZZxEDWVKoVApdnQrVwRDekDwCcTDn
+5t6be+7Nz5ney3fed847Od9553rD4XCIke0dH6DTT/H65hP6CZcad8T10xsPFezD6Rd0sxS7hw1w
+9qf8VVyb+EMZlIlkJy54tVXD71EAWxI2ft8Evv/5CW/adYWgkIsnglPpKsUSdjbLSrLyvY0/1EHZ
+STbyWYpiJThZpVgCgIkSu/j9Tj+dAMm6mYp1+im6WaoE3zs+ENdLUaxUqlIswcUffKt/TnqDDO3z
+EwV8dP0e3t56hnc/PgIY98DWyjryQYTm2REAoHl2hHwQ4fTvL1RbNXwf3W+trAMAtlc3YOMPgXFD
+UFkI9D1PCS6/qQeISuweNibuqQIu/iBJkkTOdO3CFSV4b5AZu1/vAd2aTCV0fm+5fltwmaT2vFWD
+jBdyMSs5E76zWbZKVMwBTuccrpNyOP0NXBIiAZvOiZwmn07qwk3+VCmRAKdzmVwfPsBY9xwOxp/M
+l51MOqfKyL+TtmXdc7hrTrA9QBXRy+h6Yw7XK0v+oSm4SefyQzr5NDjHF7x49TKZRuf6xJsV1438
+w0IuVr75NqP/liN34Saphy6dcg9POwdswaut2v8esOlUfnjeOQDwc0aogNPpvF2vJ8HNGd+l00Xn
+gGymORNymXHjdNaKkHE9EtKNTfeLzgHbnBE9oEtH72LXTuj6lpDpyXmucwG3VJrMFOzx2n2Fa+Zz
+wbxzgt6UEljoXODa+wH7PmHjDy4+uJaY3q59foLeIMP26gYAiG24uHx1qu2YgueDyFg94neeC1xz
+QjaTzl38ob4yk9HqfHn/rghu23g4nbv4pzoXuOaEa5+w8QsVkFM3S5XgZJzuXTp38f8DfHv6TWco
+aNEAAAAASUVORK5CYII=
+
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F
+Content-Location: file:///C:/Users/Mahmood/AppData/Roaming/Mozilla/Firefox/Profiles/17bac1g3.default/ScrapBook/data/20150522214650/d93a2a83aca89c19e00f5eb37a831983
+Content-Transfer-Encoding: base64
+Content-Type: application/octet-stream
+
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
+SlBFRyB2NjIpLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwK
+DAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAIAAg
+AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMF
+BQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkq
+NDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqi
+o6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/E
+AB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMR
+BAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKz
+tLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A
+9B8Pa07+ItFez+xxTNepb/KVjXawK8gY3Ebh1ycV659u1TR7lPC+mXTy61qe559Vl6W6qVLhcHhQ
+sgHB5ZutfAnhe5+K+tatYXl34cu4Rb38V4tzcQrFghhlWCZO3HfbnivtTXbXw/BJq41S2v8AX9Zu
+r55obW2kaN4EZI2ZflYEoDg9OpHHevhasI01GLqKT62d/wAj28vrwxlSTirbbnQfEzwhNa+GFmvP
+EFxLcITI86wIGl2KZArd8YQ8kk44Oe2BpeieD57FL3xHPdeILAXZmgWe4e3WKbfwdqdQOg7d8Vhe
+Ils/F9reNpVldaBr11HHGG1aaUQmJYyjYUErn5jyPxxmvOvFPhPxT4Z0bTrdvFOnm2urxIrhk3kQ
+o3V898e+K82pHnq/u6ijbo3/AEz1pyp0r06i136Fj4k/Hrwz8JtLnuGBbUN22PTIpFZ5CPU87B7k
+Hr0Nef8Awu/ad/4XT4l1CLX7+DQ9ec/adINq2xY2yUeEFs5YqsZwc7gT2GB8N+LvGl74t8Q3V9eM
+WluJWfGSQuSTgZ9Ky2UOm88lTkex9a/Q8Bwpg8HhHRvepK15ea7Lt+PmfnlLMcRSrRqvZdPL/M+r
+/wBqD41X2jeLdL0Xw94jv/7X05GOq30EvklnbGyHCYG1ACcDjMhzzmqfwq/bD1KxvINO8ZAalYSH
+Yb7y182HjgkADcPXv9elfOOjWcGsT3b3msQWEioZjNerK5ncsAVGxGO7knJwODz0zFrGk4laXSWu
+tTsoComuVtSiqxzjuTg44JwT6CvTqZJl1XCfVsTTUraczVnd9n01218jlr4qpiMTKsm03/XzP//Z
+
+------=_Part_1DDB4694_A0BF2D94.14D7CA48F9F--
