@@ -36,48 +36,33 @@ namespace GetFile_RawHttp
 
             socket.Send(requestB);
 
-            int totalBytesRead = 0;
             int readBytes = 0;
             byte[] buffer = new byte[1024];
 
             MemoryStream memoryStream = new MemoryStream();
 
-            readBytes = socket.Receive(buffer);
-
-            while (readBytes > 0)
+            while ((readBytes = socket.Receive(buffer)) > 0)
             {
                 memoryStream.Write(buffer, 0, readBytes);
-                totalBytesRead += readBytes;
-
-                readBytes = socket.Receive(buffer);
             }
 
             var dataB = memoryStream.ToArray();
             var data = Encoding.Default.GetString(dataB);
 
-            var splitedData = data.Split(new string[] { delimter+delimter}, StringSplitOptions.None);
+            var splitedData = data.Split(new string[] { delimter + delimter }, StringSplitOptions.None);
             var header = splitedData[0];
             var body = splitedData[1];
 
             Console.WriteLine(header);
 
             var newFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), fileName);
-
             var writer = new FileStream(newFilePath, FileMode.Create);
-            writer.Flush();
-            writer.Close();
-
-            writer = new FileStream(newFilePath, FileMode.Append);
-
             var bodyB = Encoding.Default.GetBytes(body);
-
-            writer.Write(bodyB,0,bodyB.Length);
+            writer.Write(bodyB, 0, bodyB.Length);
             writer.Flush();
             writer.Close();
 
             socket.Close();
-
-            Console.WriteLine(totalBytesRead);
 
             Console.ReadKey();
         }
