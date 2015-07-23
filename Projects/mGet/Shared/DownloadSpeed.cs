@@ -9,8 +9,8 @@ namespace mGetLibrary
 {
     public class DownloadSpeed
     {
-        private long _fileSize = 0;
-        private long _lastFileSizeWhileCalculating = 0;
+        private long _downloadedSize = 0;
+        private long _lastdownloadedSizeWhileCalculating = 0;
         private Timer timer;
         private long _speed = 0;
 
@@ -19,16 +19,16 @@ namespace mGetLibrary
             timer = new Timer(TimerTicks, null, 0, 1000);
         }
 
-        public long FileSize
+        public long DownloadedSize
         {
-            get { return _fileSize; }
-            set { _fileSize = value; }
+            get { return _downloadedSize; }
+            set { _downloadedSize = value; }
         }
 
-        public long LastFileSizeWhileCalculating
+        public long LastdownloadedSizeWhileCalculating
         {
-            get { return _lastFileSizeWhileCalculating; }
-            set { _lastFileSizeWhileCalculating = value; }
+            get { return _lastdownloadedSizeWhileCalculating; }
+            set { _lastdownloadedSizeWhileCalculating = value; }
         }
 
         /// <summary>
@@ -42,13 +42,16 @@ namespace mGetLibrary
 
         private void TimerTicks(object state)
         {
-            Speed = FileSize - LastFileSizeWhileCalculating;
-            LastFileSizeWhileCalculating = FileSize;
+            Speed = DownloadedSize - LastdownloadedSizeWhileCalculating;
+            LastdownloadedSizeWhileCalculating = DownloadedSize;
         }
 
-        public void IncreaseFileSize(long size)
+        public void IncreaseDownloadedSize(long size)
         {
-            FileSize = FileSize + size;
+            lock (this)
+            {
+                DownloadedSize = DownloadedSize + size;
+            }
         }
     }
 }

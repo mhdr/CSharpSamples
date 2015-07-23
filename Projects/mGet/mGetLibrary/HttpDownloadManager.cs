@@ -22,7 +22,6 @@ namespace mGetLibrary
         public event EventHandler<DownloadProgressEventArgs> DownloadProgress;
         public event EventHandler<ChunkDownloadCompletedEventArgs> ChunkDownloadCompleted;
         public event EventHandler<ChunkDownloadProgressEventArgs> ChunkDownloadProgress;
-        private long _downloadId;
 
         private string _fileDirectory;
         private string _downloadFilePath;
@@ -85,12 +84,6 @@ namespace mGetLibrary
             set { _resume = value; }
         }
 
-        public long DownloadId
-        {
-            get { return _downloadId; }
-            set { _downloadId = value; }
-        }
-
         private void ExtractInfoFromUrl()
         {
             Uri uri = new Uri(Url);
@@ -119,6 +112,11 @@ namespace mGetLibrary
                     this.CreateFileDirectory();
                     string fileName = this.DownloadFile();
 
+                    if (string.IsNullOrEmpty(fileName))
+                    {
+                        return;
+                    }
+
                     // save downloaded content
                     byte[] contentBytes = this.ExtractContentFromTemporaryFile(fileName);
                     this.SaveContent(contentBytes);
@@ -128,6 +126,11 @@ namespace mGetLibrary
                     OnDownloadCompleted(new DownloadCompletedEventArgs(outputFile));
                 }
             }
+        }
+
+        public void StopDonwload()
+        {
+            
         }
 
         public string MoveContentFromTemporaryFileToOutput()
@@ -275,11 +278,13 @@ namespace mGetLibrary
 
         public string DownloadFile()
         {
-            string methodLine = string.Format("GET {0} HTTP/1.1", this.FilePath);
-            string hostLine = string.Format("Host: {0}", this.Host);
-            string connectionLine = "Connection: Close";
+            try
+            {
+                string methodLine = string.Format("GET {0} HTTP/1.1", this.FilePath);
+                string hostLine = string.Format("Host: {0}", this.Host);
+                string connectionLine = "Connection: Close";
 
-            var requestArray = new string[]
+                var requestArray = new string[]
             {
                 methodLine,
                 hostLine,
@@ -288,70 +293,63 @@ namespace mGetLibrary
                 "",
             };
 
-            SocketManager socketManager = new SocketManager();
-            var socket = socketManager.GetNextSocket();
-            socket.Connect(this.Host, this.Port);
+                SocketManager socketManager = new SocketManager();
+                var socket = socketManager.GetNextSocket();
+                socket.Connect(this.Host, this.Port);
 
-            var request = string.Join("\r\n", requestArray);
-            var requestB = Encoding.Default.GetBytes(request);
+                var request = string.Join("\r\n", requestArray);
+                var requestB = Encoding.Default.GetBytes(request);
 
-            socket.Send(requestB);
+                socket.Send(requestB);
 
-            int readBytes = 0;
-            byte[] buffer = new byte[1024];
+                int readBytes = 0;
+                byte[] buffer = new byte[1024];
 
-            string fileName = "";
+                string fileName = "";
 
-            if (FileDirectory.Length > 0)
-            {
-                fileName = Path.Combine(FileDirectory, Guid.NewGuid().ToString());
-            }
-            else
-            {
-                fileName = Guid.NewGuid().ToString();
-            }
-
-            FileStream fileStream = new FileStream(fileName, FileMode.CreateNew);
-            BinaryWriter binaryWriter = new BinaryWriter(fileStream);
-
-            double fileSize = this.GetFileSize();
-
-            readBytes = socket.Receive(buffer);
-
-            int indexOfContent = this.GetIndexOfContent(buffer);
-            DownloadSpeed downloadSpeed=new DownloadSpeed();
-
-            while (readBytes > 0)
-            {
-                binaryWriter.Write(buffer, 0, readBytes);
-                binaryWriter.Flush();
-                downloadSpeed.IncreaseFileSize(readBytes);
-
-                double length = fileStream.Length - indexOfContent;
-                double progress = length / fileSize * 100;
-
-                if (DownloadId > 0)
+                if (FileDirectory.Length > 0)
                 {
-                    OnChunkDownloadProgress(new ChunkDownloadProgressEventArgs(DownloadId,progress, downloadSpeed.Speed));
-                    OnDownloadProgress(new DownloadProgressEventArgs(DownloadId,progress, downloadSpeed.Speed));
+                    fileName = Path.Combine(FileDirectory, Guid.NewGuid().ToString());
                 }
                 else
                 {
-                    OnChunkDownloadProgress(new ChunkDownloadProgressEventArgs(progress, downloadSpeed.Speed));
-                    OnDownloadProgress(new DownloadProgressEventArgs(progress, downloadSpeed.Speed));    
+                    fileName = Guid.NewGuid().ToString();
                 }
-                
+
+                FileStream fileStream = new FileStream(fileName, FileMode.CreateNew);
+                BinaryWriter binaryWriter = new BinaryWriter(fileStream);
+
+                double fileSize = this.GetFileSize();
 
                 readBytes = socket.Receive(buffer);
+
+                int indexOfContent = this.GetIndexOfContent(buffer);
+                DownloadSpeed downloadSpeed = new DownloadSpeed();
+
+                while (readBytes > 0)
+                {
+                    binaryWriter.Write(buffer, 0, readBytes);
+                    binaryWriter.Flush();
+                    downloadSpeed.IncreaseDownloadedSize(readBytes);
+
+                    double length = fileStream.Length - indexOfContent;
+                    double progress = length / fileSize * 100;
+
+                    OnDownloadProgress(new DownloadProgressEventArgs(progress, downloadSpeed.Speed));
+
+                    readBytes = socket.Receive(buffer);
+                }
+
+                socket.Close();
+                binaryWriter.Close();
+                fileStream.Close();
+
+                return fileName;
             }
-
-            socket.Close();
-            binaryWriter.Close();
-            fileStream.Close();
-
-            //OnChunkDownloadCompleted(new ChunkDownloadCompletedEventArgs());
-
-            return fileName;
+            catch (Exception)
+            {
+                return "";
+            }
         }
 
         //public string DownloadFile(long startIndex, long endIndex)

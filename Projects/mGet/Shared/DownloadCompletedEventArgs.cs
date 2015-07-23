@@ -9,16 +9,9 @@ namespace Shared
     public class DownloadCompletedEventArgs:EventArgs
     {
         private string _outputFilePath;
-        private long _downloadId;
 
         public DownloadCompletedEventArgs(string outputFilePath)
         {
-            this.OutputFilePath = outputFilePath;
-        }
-
-        public DownloadCompletedEventArgs(long downloadId,string outputFilePath)
-        {
-            this.DownloadId = downloadId;
             this.OutputFilePath = outputFilePath;
         }
 
@@ -26,12 +19,6 @@ namespace Shared
         {
             get { return _outputFilePath; }
             set { _outputFilePath = value; }
-        }
-
-        public long DownloadId
-        {
-            get { return _downloadId; }
-            set { _downloadId = value; }
         }
     }
 }

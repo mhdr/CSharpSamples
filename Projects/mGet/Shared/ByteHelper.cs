@@ -8,7 +8,6 @@ namespace Shared
 {
     public static class ByteHelper
     {
-        [Obsolete]
         public static int IndexOf(this byte[] searchIn, byte[] searchBytes, int start = 0)
         {
             int found = -1;
