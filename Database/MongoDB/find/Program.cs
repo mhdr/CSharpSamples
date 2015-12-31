@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace Insert_BsonDocuement
+namespace find
 {
     class Program
     {
@@ -14,7 +14,7 @@ namespace Insert_BsonDocuement
         {
             var connectionString = "mongodb://localhost";
 
-            IMongoClient client=new MongoClient(connectionString);
+            IMongoClient client = new MongoClient(connectionString);
 
             var database = client.GetDatabase("test-db");
             var people = database.GetCollection<BsonDocument>("People");
@@ -24,7 +24,10 @@ namespace Insert_BsonDocuement
             person["LastName"] = "Ramzani";
             person["Age"] = 29;
 
-            people.InsertOneAsync(person);
+            var filter=new BsonDocument();
+
+            var cursor = people.Find(filter);
+            cursor
 
             Console.WriteLine(person);
 
